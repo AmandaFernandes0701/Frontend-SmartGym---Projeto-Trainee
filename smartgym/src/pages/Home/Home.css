@@ -85,8 +85,8 @@
 
 .missao_bloco_1,.visao_bloco_2,.valores_bloco_3 {
     font-family: 'Poppins', sans-serif;
-    height: 60%;
-    width: 75%;
+    height: 75%;
+    width: 90%;
     color: white;
     font-size : 18px;
 }
@@ -94,10 +94,10 @@
 .missao_titulo,.visao_titulo,.valores_titulo {
     display: flex;
     flex-direction: row;
-    font-family: 'Poppins', sans-serif;
-    font-size : 26px;
     color: white;
 }
 .mission_title,.vision_title,.values_title{
     margin-left: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size : 26px;
 }

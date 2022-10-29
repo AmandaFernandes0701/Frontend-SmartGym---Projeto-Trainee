@@ -55,7 +55,9 @@ function Home(){
 
             <div className="bloco_marrom">
                 <div className="missao_titulo">
+                    <div className="missao_imagem">
                     <img src="/images/missao_icon.png"/>
+                    </div>
                     <div className="mission_title">
                         <h3>Missão</h3>
                     </div>
@@ -68,7 +70,9 @@ function Home(){
 
             <div className="bloco_marrom">
                 <div className="visao_titulo">
+                    <div className="visao_imagem">
                     <img src="/images/visao_icon.png"/>
+                    </div>
                     <div className="vision_title">
                         <h3>Visão</h3>
                     </div>
@@ -81,7 +85,9 @@ function Home(){
 
             <div className="bloco_marrom">
                 <div className="valores_titulo">
+                    <div className="valores_imagem">
                     <img src="/images/valores_icon.png"/>
+                    </div>
                     <div className="values_title">
                         <h3>Valores</h3>
                     </div>
@@ -97,7 +103,6 @@ function Home(){
             
         </div>
         </div>
-
     );
 }
 export default Home;
