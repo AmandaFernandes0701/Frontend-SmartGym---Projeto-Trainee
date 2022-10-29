@@ -21,84 +21,108 @@ function Cadastro() {
       <div className="container">
         
         <div className="titulo">
-            <h1>Bem vindo - Cadastre-se</h1>
+            <h1 className="textTitulo">Bem vindo - Cadastre-se</h1>
         </div>
+
         <form className="inputs">
-            <h1>Dados Pessoais</h1>
-            <p>Nome</p>
-            <input
-               type="text" 
-               name='nome'
-               onChange={handleInputChange}
-            />
-            <br />
-            <p>Idade</p>
-            <input 
-               type="text" 
-               name='idade'
-               onChange={handleInputChange} 
-            />
-            <br />
-            <p>CPF</p>
-            <input 
-               type="text"
-               name='cpf' 
-               onChange={handleInputChange} 
-            />
-            <br />
-            <p>Sexo</p>
-            <input 
-               type="text" 
-               name='sexo'
-               onChange={handleInputChange} 
-            />
-            <br />
-            <p>Endereço</p>
-            <input 
-               type="text" 
-               name='endereco'
-               onChange={handleInputChange} 
-            />
-            <br />
-            <p>Cidade / Estado</p>
-            <input 
-               type="text" 
-               name='cidadeEstado'
-               onChange={handleInputChange} 
-            />
-            <br />
-            <p>Telefone</p>
-            <input 
-               type="text" 
-               name='telefone'
-               onChange={handleInputChange} 
-            />
-            <br />
-            <h1>Dados de Login</h1>
+
+            <h1 className="dadosPessoais">Dados Pessoais</h1>
+            
+            <div className="linha1text">
+                <p className="textNome">Nome</p>
+                <p className="textIdade">Idade</p>
+            </div>
+            
+            <div className="linha1">
+                <input className="inputNome"
+                   type="text" 
+                   name='nome'
+                   onChange={handleInputChange}
+                />
+                <input className="inputIdade"
+                   type="text" 
+                   name='idade'
+                   onChange={handleInputChange} 
+                />
+            </div>
+
+            <div className="linha2text">
+                <p className="textCPF">CPF</p>
+                <p className="textSexo">Sexo</p>
+            </div>
+
+            <div className="linha2">
+                <input className="inputCPF"
+                   type="text" 
+                   name='cpf'
+                   onChange={handleInputChange}
+                />                
+                <input className="inputSexo"
+                   type="text" 
+                   name='sexo'
+                   onChange={handleInputChange} 
+                />
+            </div>
+
+            <div className="linha3text">
+                <p className="textEndereco">Endereço</p>
+            </div>
+            
+            <div className="linha3">
+                <input className="inputEndereco"
+                   type="text" 
+                   name='endereco'
+                   onChange={handleInputChange}
+                />
+            </div>
+
+            <div className="linha4text">
+                <p className="textCidadeEstado">Cidade / Estado</p>
+                <p className="textTelefone">Telefone</p>
+            </div>
+
+            <div className="linha4">
+                <input className="inputCidadeEstado"
+                   type="text" 
+                   name='cidadeEstado'
+                   onChange={handleInputChange}
+                />                
+                <input className="inputTelefone"
+                   type="text" 
+                   name='telefone'
+                   onChange={handleInputChange} 
+                />
+            </div>
+
+            <h1 className="dadosLogin">Dados de Login</h1>
+
             <p>E-mail</p>
-            <input 
+            <input className="inputEmail"
                type="email" 
                name='login'
                onChange={handleInputChange} 
             />
-            <br />
+
             <p>Senha</p>
-            <input 
+            <input className="inputSenha"
                type="password" 
                name='senha'
                onChange={handleInputChange} 
             />
-            <br />
+
             <p>Confirme sua senha</p>
-            <input 
+            <input className="inputConfirmarSenha"
                type="password" 
                name='confirmarSenha'
                onChange={handleInputChange} 
             />
-            <br />
+
+            <br/>
+
             <button onClick={ () => {history.push("home");}}>
                 Prosseguir
             </button>
+
         </form>
         
       </div>

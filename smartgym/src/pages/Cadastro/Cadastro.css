@@ -2,23 +2,107 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 1766px;
     background-color: #161616;
     background-image: url(./academia.jpg);
     background-repeat: no-repeat;
     background-size: contain;
+    height: 1766px;
 }
 
 .titulo {
+    display: flex;
     margin-top: 143px;
-    height: 68px;
     width: 1122px;
+    height: 68px;
     background-color: #5E1111;
 }
 
 .inputs {
     margin-top: 46px;
-    height: 1138px;
     width: 1122px;
+    height: 1138px;
     background: rgba(94, 17, 17, 0.7);
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-size: 32px;
+    color: #FFFFFF;
+    line-height: 48px;
+}
+
+p {
+    font-family: 'Poppins';
+    font-size: 25px;
+    color: #FFFFFF;
+    line-height: 38px;
+}
+
+.textTitulo {
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.dadosPessoais {
+    margin-top: 19px;
+    margin-left: 35px;
+}
+
+.linha1text, .linha2text, .linha3text, .linha4text {
+    display: flex;
+    flex-direction: row;
+}
+
+.linha1, .linha2, .linha4 {
+    flex-direction: row;
+}
+
+.textNome, .textCPF, .textEndereco, .textCidadeEstado {
+    margin-left: 35px;
+}
+
+.textIdade {
+    margin-left: 560px;
+}
+
+.textSexo {
+    margin-left: 580px;
+}
+
+.textTelefone {
+    margin-left: 465px;
+}
+
+.inputNome, .inputIdade, .inputCPF, .inputSexo,
+.inputEndereco, .inputCidadeEstado, .inputTelefone,
+.inputEmail, .inputSenha, .inputConfirmarSenha {
+    margin-top: 10px;
+    margin-left: 35px;
+    width: 584px;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.inputNome {
+    width: 584px;
+}
+
+.inputIdade {
+    width: 192px;
+}
+
+.inputCPF {
+    width: 584px;
+}
+
+.inputSexo {
+    width: 350px;
+}
+
+.inputEndereco {
+    width: 1000px;
+}
+
+.inputTelefone {
+    width: 350px;
 }
