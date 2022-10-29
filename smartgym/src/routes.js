@@ -4,7 +4,8 @@ import Cadastro from './pages/Cadastro';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Exercicios from './pages/Exercicios';
-import Perfil from './pages/Perfil'; 
+import Perfil from './pages/Perfil';
+import Header from './Header/Header';
 
 function Routes(){
     return(
@@ -17,6 +18,7 @@ function Routes(){
                 <Route path='/perfil' component={Perfil}/>
 
             </Switch>
+            <Header/>
         </BrowserRouter>
     )
 }
