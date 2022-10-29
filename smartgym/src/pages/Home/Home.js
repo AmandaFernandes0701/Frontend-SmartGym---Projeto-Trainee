@@ -3,16 +3,32 @@ import "./Home.css"
 
 function Home(){
     return ( <div className="body">
-
-        <div className="titulo_home">
+        <div className="plano_de_fundo_home">
+            <div className="titulo_home">
             <h3>SEJA FITNESS</h3>
             <h3>SEJA SAUDÁVEL</h3>
-            <h3>SEJA SMART GYM</h3>
+            <div className="seja_smart_gym">
+
+                <div className="seja_palavra">
+                <h3>SEJA</h3>
+                </div>
+
+                <div className="smart_palavra">
+                <h3> SMART </h3>
+                </div>
+
+                <div className="gym_palavra">
+                <h3>GYM</h3>
+                </div>
+
+            </div>
         </div>
 
         <div className="subtitulo_home">
             <h3>“Quem acredita sempre alcança”</h3>
         </div>
+        </div>
+
 
         <div className="who_we_are">
             <div className="secao_quem_somos_nos">
@@ -71,16 +87,15 @@ function Home(){
                     </div>
                 </div>
                 <div className="valores_bloco_3">
-                    <h1>Respeito em primeiro lugar</h1>
-                    <h1>Juntos somos mais fortes</h1>
-                    <h1>Saúde mental importa</h1>
-                    <h1>Seja a melhor versão de si mesmo</h1>
-                    <h1>Foco e disciplina</h1>
+                    <p>Respeito em primeiro lugar</p>
+                    <p>Juntos somos mais fortes</p>
+                    <p>Saúde mental importa</p>
+                    <p>Seja a melhor versão de si mesmo</p>
+                    <p>Foco e disciplina</p>
                 </div>
             </div>
             
         </div>
-
         </div>
 
     );

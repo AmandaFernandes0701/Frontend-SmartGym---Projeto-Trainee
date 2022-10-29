@@ -3,13 +3,32 @@
     height: 100%;
     width: 100%;
 }
+.plano_de_fundo_home{
+    height: 1200px;
+    width: 100%;
+    background-image: url(./background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .titulo_home{
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size : 80px;
-    margin-top: 157px;
+    padding-top: 320px;
     margin-left: 10%;
 }
+.seja_smart_gym{
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.smart_palavra{
+    font-size : 80px;
+    color: #DD1717;
+}
+
 .subtitulo_home{
     color: white;
     font-family: 'Poppins', sans-serif;
