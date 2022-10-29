@@ -7,7 +7,7 @@ function Header() {
         <div className="container_header" >
         <div className="caixa_header">
             <div className="caixa_logo_titulo_header">
-            <img src="/images/Vector.png"/>
+            <img src="/images/Home/Vector.png"/>
             <h3>SmartGym</h3>  
             </div>
             <button className="botao_header">&#9776;</button>

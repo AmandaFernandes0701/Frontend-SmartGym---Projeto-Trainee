@@ -16,6 +16,7 @@ function Routes(){
                 <Route path='/cadastro' component={Cadastro}/>
                 <Route path='/exercicios' component={Exercicios}/>
                 <Route path='/perfil' component={Perfil}/>
+        {/* Obs: colocar <Header/> */}
             </Switch>
         </BrowserRouter>
     )
