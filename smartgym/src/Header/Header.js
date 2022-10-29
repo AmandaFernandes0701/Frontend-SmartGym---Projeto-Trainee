@@ -5,11 +5,10 @@ function Header() {
 
     return (
         <div className="container_header" >
-        
         <div className="caixa_header">
             <div className="caixa_logo_titulo_header">
             <img src="/images/Vector.png"/>
-            <h3>Smart Gym</h3>  
+            <h3>SmartGym</h3>  
             </div>
             <button className="botao_header">&#9776;</button>
             <ul className="botoes_menu">

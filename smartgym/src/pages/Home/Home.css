@@ -1,0 +1,43 @@
+.titulo_home{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size : 80px;
+}
+.body{
+    background-color: #161616;
+    height: 100%;
+    width: 100%;
+}
+.caixa_blocos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bloco_marrom{
+    height: 290px;
+    width: 312px;
+    background-color: #5D1111;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.missao_bloco_1{
+    height: 50%;
+    width: 70%;
+    color: white;
+}
+
+.visao_bloco_2{
+    height: 50%;
+    width: 70%;
+    color: white;
+}
+
+.valores_bloco_3{
+    height: 50%;
+    width: 70%;
+    color: white;
+}
