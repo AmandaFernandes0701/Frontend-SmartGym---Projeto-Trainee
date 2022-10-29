@@ -1,12 +1,22 @@
-.titulo_home{
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size : 80px;
-}
 .body{
     background-color: #161616;
     height: 100%;
     width: 100%;
+}
+.titulo_home{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size : 80px;
+    margin-top: 157px;
+    margin-left: 100px;
+}
+.subtitulo_home{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size : 30px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 348px;
 }
 .caixa_blocos{
     display: flex;
@@ -14,7 +24,27 @@
     justify-content: space-around;
 }
 
+.secao_quem_somos_nos{
+    margin-left: 108px;
+    height: 325px;
+    width: 581px;
+}
+
+.titulo_quem_somos_nos{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size : 50px;
+}
+
+.texto_quem_somos_nos{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size : 18px;
+}
+
 .bloco_marrom{
+    margin-top: 145px;
+    flex-direction: column;
     height: 290px;
     width: 312px;
     background-color: #5D1111;
@@ -22,22 +52,19 @@
     align-items: center;
     justify-content: center;
     display: flex;
+    margin-bottom: 50px;
 }
 
-.missao_bloco_1{
+.missao_bloco_1,.visao_bloco_2,.valores_bloco_3 {
+    font-family: 'Poppins', sans-serif;
     height: 50%;
     width: 70%;
     color: white;
+    font-size : 18px;
 }
 
-.visao_bloco_2{
-    height: 50%;
-    width: 70%;
-    color: white;
-}
-
-.valores_bloco_3{
-    height: 50%;
-    width: 70%;
+.missao_titulo,.visao_titulo,.valores_titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size : 26px;
     color: white;
 }
