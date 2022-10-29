@@ -14,7 +14,7 @@ function Home(){
                 </div>
 
                 <div className="smart_palavra">
-                <h3> SMART </h3>
+                <h3>SMART</h3>
                 </div>
 
                 <div className="gym_palavra">
@@ -47,7 +47,9 @@ function Home(){
                     </h1>
                 </div>
             </div>
+            <div className="imagem_quem_somos_nos">
             <img src="/images/imagem_home.jpg"/>
+            </div>
         </div>
 
 

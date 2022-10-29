@@ -50,12 +50,13 @@
     display: flex;
     flex-direction: row;
     margin-left: 200px;
+    margin-bottom: 145px;
 }
 
 .secao_quem_somos_nos{
     height: 325px;
-    width: 700px;
-    margin-right: 60px;
+    width: 650px;
+    margin-right: 90px;
 }
 
 .titulo_quem_somos_nos{
@@ -68,6 +69,10 @@
     font-family: 'Poppins', sans-serif;
     color: white;
     font-size : 18px;
+}
+
+.imagem_quem_somos_nos{
+    height: 325px;
 }
 
 .bloco_marrom{
