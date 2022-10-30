@@ -1,23 +1,40 @@
 .frame {
-   padding: 5%;
+   padding: 1%;
+   display: flex;
+   flex-direction: row;
+
 }
 
 .frameTitle {
    font-family: 'Poppins', sans-serif;
-   font-size: 100%;
+   font-size: 120%;
    color: #FFFFFF;
    margin-bottom: 2%;
-   margin-top: 2%;
    text-align: center;
 }
 
 .frameDescription {
    font-family: 'Poppins', sans-serif;
-   font-size: 70%;
+   font-size: 60%;
    color: #FFFFFF;
    margin-bottom: 2%;
    margin-top: 2%;
    text-align: center;
 }
+
+.frameButton {
+   background-color: #5D1111;
+   border: none;
+   color: #FFFFFF;
+   padding: 10px 50px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   margin-left: 10px;
+   margin-right: 10px;
+   cursor: pointer;
+ }
 
 /*style={{ width: "95%", height: "76%" }}*/
