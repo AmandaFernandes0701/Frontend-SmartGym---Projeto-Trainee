@@ -1,14 +1,23 @@
 .frame {
-   background-color: #151515;
    padding: 5%;
-   margin: 5%;
-
 }
 
 .frameTitle {
-
+   font-family: 'Poppins', sans-serif;
+   font-size: 100%;
+   color: #FFFFFF;
+   margin-bottom: 2%;
+   margin-top: 2%;
+   text-align: center;
 }
 
 .frameDescription {
-
+   font-family: 'Poppins', sans-serif;
+   font-size: 70%;
+   color: #FFFFFF;
+   margin-bottom: 2%;
+   margin-top: 2%;
+   text-align: center;
 }
+
+/*style={{ width: "95%", height: "76%" }}*/
