@@ -11,14 +11,15 @@ import Header from "./Header/Header";
 function Routes(){
     return(
         <BrowserRouter>
+        <Header/>
             <Switch>
                 <Route path='/login' component={Login}/>
                 <Route path='/home' component={Home}/>
                 <Route path='/cadastro' component={Cadastro}/>
                 <Route path='/exercicios' component={Exercicios}/>
                 <Route path='/perfil' component={Perfil}/>
-                <Route path='/footer' component={Footer}/>
             </Switch>
+            <Footer/>
         </BrowserRouter>
     )
 }
