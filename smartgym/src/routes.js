@@ -4,7 +4,8 @@ import Cadastro from './pages/Cadastro';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Exercicios from './pages/Exercicios';
-import Perfil from './pages/Perfil'; 
+import Perfil from './pages/Perfil';
+import Footer from './pages/Footer'; 
 
 function Routes(){
     return(
@@ -15,6 +16,7 @@ function Routes(){
                 <Route path='/cadastro' component={Cadastro}/>
                 <Route path='/exercicios' component={Exercicios}/>
                 <Route path='/perfil' component={Perfil}/>
+                <Route path='/footer' component={Footer}/>
 
             </Switch>
         </BrowserRouter>

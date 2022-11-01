@@ -1,0 +1,59 @@
+.body{
+    display: flex;
+    flex-direction: row;
+    background-color: #5D1111;
+    height: 287px;
+    width: 100%;
+    align-items: center;
+}
+
+.Smart_Gym_footer{
+    display: flex;
+    align-items: center;
+}
+
+.icon_smart_gym_footer{
+    margin-left: 94px;
+}
+
+.titulo_smart_gym_footer{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 50px;
+    padding-left: 27px;
+    padding-right: 140px;
+}
+
+.redes_sociais_footer{
+    display: flex;
+    align-items: center;
+}
+
+.icone_whatsapp_footer,
+.icone_facebook_footer{
+    padding-right: 30px;
+}
+
+.icone_instagram_footer{
+    padding-right: 140px;
+}
+
+.inf_de_contato_footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.contato_gmail,
+.contato_endereco,
+.contato_telefone{
+    display: flex;
+    flex-direction: row;
+}
+
+.contato_texto_footer,
+.endereco_texto_footer,
+.telefone_texto_footer{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 16px;
+}
