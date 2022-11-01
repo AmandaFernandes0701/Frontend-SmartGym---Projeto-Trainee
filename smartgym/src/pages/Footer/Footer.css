@@ -1,10 +1,12 @@
 .body{
     display: flex;
     flex-direction: row;
-    background-color: #5D1111;
+    background-image: linear-gradient(to top, #161616, #5D1111);
     height: 287px;
     width: 100%;
     align-items: center;
+    justify-content: space-between;
+    padding-right: 94px;
 }
 
 .Smart_Gym_footer{
@@ -19,7 +21,7 @@
 .titulo_smart_gym_footer{
     font-family: 'Poppins', sans-serif;
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     padding-left: 27px;
     padding-right: 140px;
 }
@@ -43,11 +45,28 @@
     flex-direction: column;
 }
 
+.endereco_icon_footer{
+    size: absolute;
+    height: 33px;
+    width: 33px;
+}
+
+.contato_icon_footer,
+.endereco_icon_footer,
+.telefone_icon_footer{
+    margin-right: 20px;
+}
+
 .contato_gmail,
 .contato_endereco,
 .contato_telefone{
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
+}
+
+.contato_endereco{
+    align-items: center;
 }
 
 .contato_texto_footer,

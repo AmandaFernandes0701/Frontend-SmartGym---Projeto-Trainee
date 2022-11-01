@@ -19,6 +19,7 @@ a {
     margin-left: 8%;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .caixa_logo_titulo_header img{
@@ -92,38 +93,5 @@ button:hover {
 }
 
 
-@media (max-width: 800px) {
-
-    .caixa_header,
-    ul {
-        flex-direction: column;
-    }
-
-    ul {
-        text-align: center;
-        margin: 0;
-        height: 0;
-    }
-
-    .caixa_header {
-        padding: 0;
-        align-items: flex-start;
-    }
-
-    h1 {
-        margin: 10px;
-    }
-
-    button {
-        display: flex;
-    }
-
-    .itens_lista_header,
-    ul {
-        width: 100%;
-    }
-
-    ul.responsivo {
-        height: 260px;
-    }
+@media (max-width: 700px) {
 }

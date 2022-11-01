@@ -1,12 +1,20 @@
 import React from "react"
 import "./Footer.css"
+import Logo from "./logo_icon.png"
+import WhatsApp from "./whatsapp_icon.png"
+import Facebook from "./facebook_icon.png"
+import Instagram from "./instagram_icon.png"
+import Email from "./contato_icon.png"
+import Telefone from "./telefone.jpg"
+import Endereco from "./location.jpg"
+// import Endereco from "./location.png"
 
 function Footer(){
     return(
         <div className="body">
             <div className="Smart_Gym_footer">
                 <div className="icon_smart_gym_footer">
-                <img src="/images/logo_icon.png"/>
+                <img src={Logo}/>
 
                 </div>
                 <div className="titulo_smart_gym_footer">
@@ -17,15 +25,15 @@ function Footer(){
 
             <div className="redes_sociais_footer">
                 <div className="icone_whatsapp_footer">
-                <img src="/images/whatsapp_icon.png"/>
+                <img src={WhatsApp}/>
 
                 </div>
                 <div className="icone_facebook_footer">
-                <img src="/images/facebook_icon.png"/>
+                <img src={Facebook}/>
 
                 </div>
                 <div className="icone_instagram_footer">
-                <img src="/images/instagram_icon.png"/>
+                <img src={Instagram}/>
                 </div>
             </div>
 
@@ -33,7 +41,7 @@ function Footer(){
             <div className="inf_de_contato_footer">
                 <div className="contato_gmail">
                     <div className="contato_icon_footer">
-                    <img src="/images/contato_icon.png"/>
+                    <img src={Email}/>
                     </div>
                     <div className="contato_texto_footer">
                         <p>
@@ -45,7 +53,7 @@ function Footer(){
 
                 <div className="contato_endereco">
                     <div className="endereco_icon_footer">
-                    <img src="/components/images/endereco_icon.png"/>
+                    <img src={Endereco}/>
                     </div>
                     <div className="endereco_texto_footer">
                         <p>Avenida Dos Andradas 1005 Santa Efigênia -</p>
@@ -58,7 +66,7 @@ function Footer(){
                 <div className="contato_telefone">
 
                     <div className="telefone_icon_footer">
-                    <img src="/images/telefone_icon.png"/>
+                    <img src={Telefone}/>
                     </div>
                     <div className="telefone_texto_footer">
                         <p>
