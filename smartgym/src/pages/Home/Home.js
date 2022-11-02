@@ -33,10 +33,10 @@ function Home(){
         <div className="who_we_are">
             <div className="secao_quem_somos_nos">
                 <div className="titulo_quem_somos_nos">
-                    <h3>Quem somos nós?</h3>
+                    <p>Quem somos nós?</p>
                 </div>
                 <div className="texto_quem_somos_nos">
-                    <h1>
+                    <p>
                     A Smart Gym surgiu com o propósito de melhoria da qualidade de vida dos moradores do bairro.
                     O projeto desenvolvido pelos nossos fundadores começou com a meta de proporcionar uma nova experiência na área fitness,
                     que conciliasse os exercícios físicos à vida corrida dos dias atuais. 
@@ -44,7 +44,7 @@ function Home(){
                     mas sim um espaço de desenvolvimento pessoal além do físico.
                     Buscamos otimizar o tempo dos nossos associados, fazendo uso das tecnologias mais recentes para entregar praticidade e
                     satisfação durante a prática esportiva.
-                    </h1>
+                    </p>
                 </div>
             </div>
             <div className="imagem_quem_somos_nos">
@@ -61,12 +61,12 @@ function Home(){
                     <img src="/images/missao_icon.png"/>
                     </div>
                     <div className="mission_title">
-                        <h3>Missão</h3>
+                        <p>Missão</p>
                     </div>
                 </div>
                 <div className="missao_bloco_1">
-                    <h1>Incentivar a prática de exercícios físicos, corrobando, assim, para a longevidade de nossos clientes,
-                    assim como seu bem estar físico e emocional.</h1>
+                    <p>Incentivar a prática de exercícios físicos, corrobando, assim, para a longevidade de nossos clientes,
+                    assim como seu bem estar físico e emocional.</p>
                 </div>
             </div>
 
@@ -76,12 +76,12 @@ function Home(){
                     <img src="/images/visao_icon.png"/>
                     </div>
                     <div className="vision_title">
-                        <h3>Visão</h3>
+                        <p>Visão</p>
                     </div>
                 </div>
                 <div className="visao_bloco_2">
-                        <h1>Consolidar o nosso nome no mercado e ser referência nacional pela qualidade ofericida por nossos equipamentos,
-                        tal como proporcionar um ambiente de inclusão e diversidade para os nosso clientes</h1>
+                        <p>Consolidar o nosso nome no mercado e ser referência nacional pela qualidade ofericida por nossos equipamentos,
+                        tal como proporcionar um ambiente de inclusão e diversidade para os nosso clientes</p>
                 </div>
             </div>
 
@@ -91,7 +91,7 @@ function Home(){
                     <img src="/images/valores_icon.png"/>
                     </div>
                     <div className="values_title">
-                        <h3>Valores</h3>
+                        <p>Valores</p>
                     </div>
                 </div>
                 <div className="valores_bloco_3">
