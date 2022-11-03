@@ -1,12 +1,23 @@
 .list{
     width: 260px;
+    background-image: linear-gradient(to bottom, #161616, #5D1111);
+    height: 100%;
 }
 .ListItemText{
     margin-left: 16px;
+    color: white;
 }
 .Toolbar{
     background-color: #5D1111;
+    display: flex;
+    flex-direction: row;
 }
 .Smart_Gym_Titulo{
+    padding-right: 48%;
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.Logo_Smart_Gym{
+    padding-right: 10px;
+    padding-left: 15px;
 }

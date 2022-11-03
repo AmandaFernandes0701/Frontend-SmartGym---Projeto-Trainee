@@ -9,6 +9,8 @@ import { FiLogIn, FiMenu } from "react-icons/fi";
 import "./Menu_Sanduiche.css";
 import { useHistory } from "react-router-dom";
 import { ClassNames } from "@emotion/react";
+import Logo from "./logo_icon.png"
+import { color, fontStyle } from "@mui/system";
 
 function Menu_Sanduiche() {
     const history = useHistory();
@@ -61,6 +63,9 @@ function Menu_Sanduiche() {
         <>
         <AppBar position="static">
             <Toolbar className="Toolbar">
+                <div className="Logo_Smart_Gym">
+                    <img src={Logo}/>
+                </div>
                 <div className="Smart_Gym_Titulo">
                     <p>Smart Gym</p>
                 </div>
@@ -77,17 +82,18 @@ function Menu_Sanduiche() {
         </AppBar>
 
         <Drawer open={open} onClose ={()=> handleDrawer(false)}>
-
             <List className="list">
                 {pages.map((listItem) => {
                     return (
                         <ListItem button
                             selected={currentPage === listItem.pathName}
                             onClick={() => { handleClick(listItem.pathName) }}>
-                            <IconContext.Provider value={{ color: "#343434", size: listItem.iconSize}}>
+                            <IconContext.Provider value={{ color: "#FFFFFF", size: listItem.iconSize}}>
                                 {listItem.icon}
                             </IconContext.Provider>
-                            <ListItemText className="ListItemText">
+                            <ListItemText className="ListItemText"
+                            font-color="white"
+                            >
                                 <Typography>{listItem.text}</Typography>
                             </ListItemText>
                         </ListItem>
