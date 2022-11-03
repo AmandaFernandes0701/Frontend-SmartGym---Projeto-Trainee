@@ -4,3 +4,9 @@
 .ListItemText{
     margin-left: 16px;
 }
+.Toolbar{
+    background-color: #5D1111;
+}
+.Smart_Gym_Titulo{
+    font-family: 'Poppins', sans-serif;
+}
