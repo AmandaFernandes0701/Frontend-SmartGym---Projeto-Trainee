@@ -18,7 +18,7 @@ function Footer(){
 
                 </div>
                 <div className="titulo_smart_gym_footer">
-                <h3>Smart Gym</h3>
+                <p>SmartGym</p>
                 </div>
             </div>
 

@@ -1,7 +1,7 @@
 .body{
     display: flex;
     flex-direction: row;
-    background-image: linear-gradient(to top, #161616, #5D1111);
+    background-image: linear-gradient(to bottom, #161616, #5D1111);
     height: 287px;
     width: 100%;
     align-items: center;
@@ -24,6 +24,7 @@
     font-size: 40px;
     padding-left: 27px;
     padding-right: 140px;
+    font-weight: bold;
 }
 
 .redes_sociais_footer{
@@ -75,4 +76,32 @@
     font-family: 'Poppins', sans-serif;
     color: white;
     font-size: 16px;
+}
+
+@media( max-width: 900px){
+    .body{
+        display: flex;
+        flex-direction: column;
+        height: 330px;
+        width: 450px;
+    }
+    .titulo_smart_gym_footer{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .Smart_Gym_footer{
+        padding-top: 30px;
+    }
+    .contato_texto_footer,
+    .endereco_texto_footer,
+    .telefone_texto_footer{
+        font-size: 12px;
+    }
+    .inf_de_contato_footer{
+        padding-left: 30px;
+        width: 100%;
+    }
+    .redes_sociais_footer{
+        padding-left: 30px;
+    }
 }
