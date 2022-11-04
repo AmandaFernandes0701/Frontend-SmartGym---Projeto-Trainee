@@ -5,47 +5,51 @@
     background-color: #161616;
     background-image: url(./academia.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 1766px;
 }
 
 .titulo {
     display: flex;
-    margin-top: 143px;
-    width: 1122px;
-    height: 68px;
+    margin-top: 12%;
+    width: 97%;
+    height: 4%;
     background-color: #5E1111;
 }
 
 .inputs {
-    margin-top: 46px;
-    width: 1122px;
-    height: 1138px;
+    margin-top: 4%;
+    width: 97%;
+    height: 66%;
     background: rgba(94, 17, 17, 0.7);
 }
 
 h1 {
     font-family: 'Poppins';
-    font-size: 32px;
+    font-size: 200%;
     color: #FFFFFF;
-    line-height: 48px;
+    line-height: 150%;
+    font-weight: 700;
 }
 
 p {
     font-family: 'Poppins';
-    font-size: 25px;
+    font-size: 160%;
     color: #FFFFFF;
-    line-height: 38px;
+    line-height: 150%;
+    font-weight: 700;
 }
 
 .textTitulo {
-    margin-top: 10px;
-    margin-left: 35px;
+    margin-top: 1%;
+    margin-left: 3%;
+    font-weight: 700;
 }
 
 .dadosPessoais {
-    margin-top: 19px;
-    margin-left: 35px;
+    margin-top: 2%;
+    margin-left: 3%;
+    font-weight: 700;
 }
 
 .linha1text, .linha2text, .linha3text, .linha4text {
@@ -57,52 +61,76 @@ p {
     flex-direction: row;
 }
 
-.textNome, .textCPF, .textEndereco, .textCidadeEstado {
-    margin-left: 35px;
+.textNome, .textCPF, .textEndereco, .textCidadeEstado,
+.textEmail, .textSenha, .textConfSenha {
+    margin-top: 2%;
+    margin-left: 3%;
 }
 
 .textIdade {
-    margin-left: 560px;
+    margin-top: 2%;
+    margin-left: 73%;
 }
 
 .textSexo {
-    margin-left: 580px;
+    margin-top: 2%;
+    margin-left: 49%;
 }
 
 .textTelefone {
-    margin-left: 465px;
+    margin-top: 2%;
+    margin-left: 39%;
 }
 
 .inputNome, .inputIdade, .inputCPF, .inputSexo,
 .inputEndereco, .inputCidadeEstado, .inputTelefone,
 .inputEmail, .inputSenha, .inputConfirmarSenha {
-    margin-top: 10px;
-    margin-left: 35px;
-    width: 584px;
+    margin-top: 1%;
+    margin-left: 3%;
     height: 45px;
     border-radius: 5px;
 }
 
 .inputNome {
-    width: 584px;
+    width: 75%;
 }
 
 .inputIdade {
-    width: 192px;
+    width: 15%;
 }
 
-.inputCPF {
-    width: 584px;
+.inputCPF, .inputCidadeEstado {
+    width: 50%;
 }
 
-.inputSexo {
-    width: 350px;
+.inputSexo, .inputTelefone
+ {
+    width: 40%;
 }
 
 .inputEndereco {
-    width: 1000px;
+    width: 93%;
 }
 
-.inputTelefone {
-    width: 350px;
+.inputEmail, .inputSenha, .inputConfirmarSenha {
+    width: 93%;
+}
+
+.dadosLogin {
+    margin-top: 4%;
+    margin-left: 3%;
+}
+
+.botao {
+    margin-top: 5%;
+    margin-left: 42%;
+    width: 20%;
+    height: 4%;
+    border-radius: 45px;
+    background-color: #000000;
+    font-family: 'Poppins';
+    font-size: 150%;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 1%;
 }

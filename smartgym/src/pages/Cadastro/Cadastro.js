@@ -96,30 +96,28 @@ function Cadastro() {
 
             <h1 className="dadosLogin">Dados de Login</h1>
 
-            <p>E-mail</p>
+            <p className="textEmail">E-mail</p>
             <input className="inputEmail"
                type="email" 
                name='login'
                onChange={handleInputChange} 
             />
 
-            <p>Senha</p>
+            <p className="textSenha">Senha</p>
             <input className="inputSenha"
                type="password" 
                name='senha'
                onChange={handleInputChange} 
             />
 
-            <p>Confirme sua senha</p>
+            <p className="textConfSenha">Confirme sua senha</p>
             <input className="inputConfirmarSenha"
                type="password" 
                name='confirmarSenha'
                onChange={handleInputChange} 
             />
 
-            <br/>
-
-            <button onClick={ () => {history.push("home");}}>
+            <button className="botao" onClick={ () => {history.push("home");}}>
                 Prosseguir
             </button>
 
