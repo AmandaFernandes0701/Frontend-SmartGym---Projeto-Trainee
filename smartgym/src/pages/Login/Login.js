@@ -14,25 +14,34 @@ function Login(){
         history.push("home");
       }
     return (
-    <div className="body">
       <div className="base">
         <div className="container">
-          <h1>Login</h1>
-
+          <div class="login-title">
+           LOGIN
+          </div>
           <Form className="inputs">
             <Form.Group controlId="Email">
+              <div class="form-group-email-label">
               <Form.Label>Endereço de e-mail</Form.Label>
-              <Form.Control type="email" placeholder="E-mail" onChange={(e)=>setEmail(e.target.value)}/>
+              </div>
+              <Form.Control type="email" onChange={(e)=>setEmail(e.target.value)}/>
               
             </Form.Group>
 
             <Form.Group controlId="formBasicEmail">
+              <div class="form-group-pass-label">
               <Form.Label>Senha</Form.Label>
-              <Form.Control type="password" placeholder="Senha" onChange={(e)=>setPassword(e.target.value)} />
+              </div>
+              <Form.Control type="password" onChange={(e)=>setPassword(e.target.value)} />
             </Form.Group>
 
             <Form.Group>
-            <button class="btn btn-outline-light btn-lg px-5" type="submit">Entrar</button>
+
+            <button class="button" type="submit">
+              <div class="button-label">
+                ENTRAR
+              </div>
+              </button>
             </Form.Group>
             {/* <Button variant="primary" onClick={(login)} > Entrar </Button> */}
             
@@ -41,7 +50,6 @@ function Login(){
     
         </div>
       </div>
-    </div>
     );
 }
 export default Login;
