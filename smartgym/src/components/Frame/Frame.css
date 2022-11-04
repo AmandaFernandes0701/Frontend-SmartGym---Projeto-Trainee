@@ -1,40 +1,56 @@
-.frame {
-   padding: 1%;
+.frame {   
    display: flex;
    flex-direction: row;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+}
 
+.frameImage {
+   width:50%;
+   height: 80%;
+}
+
+.frameText {
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-left: 5%;
+   padding-right: 5%;
 }
 
 .frameTitle {
    font-family: 'Poppins', sans-serif;
-   font-size: 120%;
+   font-size: 90%;
    color: #FFFFFF;
-   margin-bottom: 2%;
    text-align: center;
+   align-content: center;
+   width: 100%;
 }
 
 .frameDescription {
    font-family: 'Poppins', sans-serif;
-   font-size: 60%;
-   color: #FFFFFF;
-   margin-bottom: 2%;
-   margin-top: 2%;
+   font-size: 55%;
+   color: #747474;
    text-align: center;
+   width: 100%;
+   text-align: justify;
 }
 
 .frameButton {
    background-color: #5D1111;
    border: none;
    color: #FFFFFF;
-   padding: 10px 50px;
+   padding: 6% 25%;
    text-align: center;
-   text-decoration: none;
    display: inline-block;
-   font-size: 16px;
-   margin: 4px 2px;
-   margin-left: 10px;
-   margin-right: 10px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 60%;
+   margin-top: 5%;
    cursor: pointer;
- }
+   align-content: center;
+}
 
 /*style={{ width: "95%", height: "76%" }}*/
