@@ -1,13 +1,22 @@
+.body{
+    background-color: #161616;
+    height: 100%;
+    width: 100%;
+}
+
 .container {
-   display: flex;
-   flex-direction: column;
-   max-width: 2643.75%;
-   align-items: center;
-   flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #5D1111;
+    align-items: center;
+    padding-top: 30px;
+    margin:20%;
+    height: 300px;
+    width: 500px;
 }
 
 .base{
-    height: 90vh;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,6 +26,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 400px;
+    max-width: 250px;
 
 }
