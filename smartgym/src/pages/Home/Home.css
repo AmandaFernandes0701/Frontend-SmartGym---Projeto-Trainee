@@ -2,6 +2,7 @@
     background-color: #161616;
     height: 100%;
     width: 100%;
+    align-items: center;
 }
 .plano_de_fundo_home{
     height: 1200px;
@@ -38,8 +39,8 @@
     margin-bottom: 348px;
 }
 .caixa_blocos{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -49,13 +50,14 @@
     align-items: center;
     display: flex;
     flex-direction: row;
-    margin-left: 200px;
-    margin-bottom: 145px;
+    margin: 8%;
+    margin-bottom: 0px;
 }
 .secao_quem_somos_nos{
     height: 325px;
     width: 650px;
-    margin-right: 90px;
+    margin-right: 50px;
+    align-items: center;
 }
 
 .titulo_quem_somos_nos{
@@ -72,7 +74,9 @@
 }
 
 .imagem_home_nos{
-    height: 325px;
+    height: 330px;
+    width: 528px;
+    margin-right: 13%;
 }
 
 .bloco_marrom{
@@ -115,15 +119,29 @@
     font-family: 'Poppins', sans-serif;
     font-size : 26px;
 }
+@media( min-width: 1500px){
+    .who_we_are{
+       padding-right: 2%;
+       padding-left: 3.5%;
+    }
+    .imagem_home_nos{
+        margin-top: 100px;
+        margin-left: 0%;
+        margin-bottom: 30px;
+        width: calc(102%);
+        height: calc(102%);
+    }
+}
 
 @media( max-width: 900px){
     .body{
         align-items: center;
         padding-bottom: 40px;
+        width: 100%;
     }
     .plano_de_fundo_home{
         height: 793px;
-        width: 390px;
+        width: 100%;
         background-image: url(./background_mobile.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -211,5 +229,12 @@
     .values_title{
         font-size: 20px;
         font-weight: bold;
+    }
+    .image_mission_icon,
+    .image_vision_icon,
+    .image_values_icon
+    {
+        height: 25px;
+        width: 25px;
     }
 }
