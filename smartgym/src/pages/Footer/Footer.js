@@ -1,20 +1,12 @@
 import React from "react"
 import "./Footer.css"
-import Logo from "./logo_icon.png"
-import WhatsApp from "./whatsapp_icon.png"
-import Facebook from "./facebook_icon.png"
-import Instagram from "./instagram_icon.png"
-import Email from "./contato_icon.png"
-import Telefone from "./telefone.jpg"
-import Endereco from "./location.jpg"
-// import Endereco from "./location.png"
 
 function Footer(){
     return(
         <div className="body">
             <div className="Smart_Gym_footer">
                 <div className="icon_smart_gym_footer">
-                <img src={Logo}/>
+                <img src="/images/logo_icon.png" alt="logo_icon_imagem" className="imagem_logo_footer"/>
 
                 </div>
                 <div className="titulo_smart_gym_footer">
@@ -24,25 +16,25 @@ function Footer(){
 
 
             <div className="redes_sociais_footer">
-                <div className="icone_whatsapp_footer">
-                <img src={WhatsApp}/>
 
+                <div className="icone_whts_footer">
+                <img src="/images/whatsapp_icon.png" alt="icone_whatsapp_footer" className="icon_whatsapp_footer"/>
                 </div>
-                <div className="icone_facebook_footer">
-                <img src={Facebook}/>
 
+                <div className="facebook_footer">
+                <img src="/images/facebook_icon.png" alt="icone_facebook_footer" className="icon_facebook_footer"/>
                 </div>
+
                 <div className="icone_instagram_footer">
-                <img src={Instagram}/>
+                <img src="/images/instagram_icon.png" alt="icone_ig_footer" className="icon_ig_footer"/>
                 </div>
+
             </div>
 
 
             <div className="inf_de_contato_footer">
                 <div className="contato_gmail">
-                    <div className="contato_icon_footer">
-                    <img src={Email}/>
-                    </div>
+                    <img src="/images/contato_icon.png" alt="icone_contact_footer" className="icon_contact_footer"/>
                     <div className="contato_texto_footer">
                         <p>
                         contatoSmartGym@gmail.com
@@ -52,9 +44,7 @@ function Footer(){
 
 
                 <div className="contato_endereco">
-                    <div className="endereco_icon_footer">
-                    <img src={Endereco}/>
-                    </div>
+                    <img src="/images/location.jpg" alt="icone_location_footer" className="icon_location_footer"/>
                     <div className="endereco_texto_footer">
                         <p>Avenida Dos Andradas 1005 Santa Efigênia -</p>
                         <p>Belo Horizonte - Minas Gerais 30150 Brasil</p>
@@ -65,9 +55,7 @@ function Footer(){
 
                 <div className="contato_telefone">
 
-                    <div className="telefone_icon_footer">
-                    <img src={Telefone}/>
-                    </div>
+                    <img src="/images/telefone.jpg" alt="icone_phone_footer" className="icon_phone_footer"/>
                     <div className="telefone_texto_footer">
                         <p>
                         +55 (31) 3578-9967
