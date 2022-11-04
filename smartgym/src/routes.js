@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Exercicios from './pages/Exercicios';
 import Perfil from './pages/Perfil'; 
-import Menu_Sanduiche from "./pages/Menu_Sanduiche";
+import Menu_Sanduiche from "./components/Menu_Sanduiche";
 
 function Routes(){
     return(
