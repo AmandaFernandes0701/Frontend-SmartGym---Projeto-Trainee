@@ -37,7 +37,7 @@ function Login(){
 
             <Form.Group>
 
-            <button class="button" type="submit">
+            <button class="button" type="submit" onClick={(login)}> 
               <div class="button-label">
                 ENTRAR
               </div>
