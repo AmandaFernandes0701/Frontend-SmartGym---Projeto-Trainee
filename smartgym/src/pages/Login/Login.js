@@ -2,11 +2,11 @@ import React from "react";
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
 import { Form, Button } from "react-bootstrap";
-import "./login.css"
+import "./Login.css"
 
 function Login(){
   const [email, setEmail] = useState();
-  const [senha, setPassword] = useState();
+  const [password, setPassword] = useState();
   const history = useHistory();
 
       function login(){
@@ -32,8 +32,7 @@ function Login(){
             </Form.Group>
 
             <Button variant="primary" onClick={(login)} > Login </Button>
-            {/* <div className="inputs">
-            </div> */}
+            
 
           </Form>
     
