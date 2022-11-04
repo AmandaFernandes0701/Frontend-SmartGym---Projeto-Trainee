@@ -6,44 +6,45 @@
     background-image: url(./academia.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1766px;
+    height: 1415px;
 }
 
 .titulo {
     display: flex;
-    margin-top: 12%;
+    margin-top: 6%;
     width: 97%;
-    height: 4%;
+    height: 5%;
     background-color: #5E1111;
 }
 
 .inputs {
     margin-top: 4%;
     width: 97%;
-    height: 66%;
+    height: 83%;
     background: rgba(94, 17, 17, 0.7);
 }
 
 h1 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     font-size: 200%;
     color: #FFFFFF;
     line-height: 150%;
-    font-weight: 700;
 }
 
 p {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     font-size: 160%;
     color: #FFFFFF;
     line-height: 150%;
-    font-weight: 700;
 }
 
 .textTitulo {
     margin-top: 1%;
     margin-left: 3%;
     font-weight: 700;
+    line-height: 140%;
 }
 
 .dadosPessoais {
@@ -69,7 +70,7 @@ p {
 
 .textIdade {
     margin-top: 2%;
-    margin-left: 73%;
+    margin-left: 71.7%;
 }
 
 .textSexo {
@@ -79,7 +80,7 @@ p {
 
 .textTelefone {
     margin-top: 2%;
-    margin-left: 39%;
+    margin-left: 36.5%;
 }
 
 .inputNome, .inputIdade, .inputCPF, .inputSexo,
@@ -89,6 +90,10 @@ p {
     margin-left: 3%;
     height: 45px;
     border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding-left: 1%;
+    font-size: 130%;
 }
 
 .inputNome {
@@ -128,7 +133,7 @@ p {
     height: 4%;
     border-radius: 45px;
     background-color: #000000;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-size: 150%;
     font-weight: 400;
     color: #FFFFFF;

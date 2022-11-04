@@ -40,7 +40,7 @@ function Cadastro() {
                    onChange={handleInputChange}
                 />
                 <input className="inputIdade"
-                   type="text" 
+                   type="number" 
                    name='idade'
                    onChange={handleInputChange} 
                 />
@@ -53,7 +53,7 @@ function Cadastro() {
 
             <div className="linha2">
                 <input className="inputCPF"
-                   type="text" 
+                   type="tel" 
                    name='cpf'
                    onChange={handleInputChange}
                 />                
@@ -88,7 +88,7 @@ function Cadastro() {
                    onChange={handleInputChange}
                 />                
                 <input className="inputTelefone"
-                   type="text" 
+                   type="tel" 
                    name='telefone'
                    onChange={handleInputChange} 
                 />
