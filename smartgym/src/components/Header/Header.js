@@ -1,7 +1,6 @@
 import React from "react";
 import "./Header.css"
 import Menu_Sanduiche from "../Menu_Sanduiche"
-import Logo from "./logo_icon.png"
 
 function Header() {
 
@@ -10,10 +9,10 @@ function Header() {
             <div className="caixa_header">
                 <div className="caixa_logo_titulo_header">
                     <div className="Logo_Smart_Gym">
-                        <img src={Logo} />
+                    <img src="/images/logo_icon.png" alt="logo_icon_imagem" className="imagem_logo_footer"/>
                     </div>
                     <div className="texto_titulo_Smart_Gym">
-                        <h3>Smart Gym</h3>
+                        <p>SmartGym</p>
                     </div>
                 </div>
                 <ul className="botoes_menu">
