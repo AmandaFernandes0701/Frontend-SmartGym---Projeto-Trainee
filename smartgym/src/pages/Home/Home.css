@@ -71,7 +71,7 @@
     font-size : 18px;
 }
 
-.imagem_quem_somos_nos{
+.imagem_home_nos{
     height: 325px;
 }
 
@@ -95,6 +95,13 @@
     width: 80%;
     color: white;
     font-size : 18px;
+    text-align: center;
+}
+.missao_bloco_1, .valores_bloco_3{
+    padding-top: 20px;
+}
+.visao_bloco_2{
+    padding-top: 7px;
 }
 
 .missao_titulo,.visao_titulo,.valores_titulo {
@@ -112,11 +119,12 @@
 @media( max-width: 900px){
     .body{
         align-items: center;
+        padding-bottom: 40px;
     }
     .plano_de_fundo_home{
         height: 793px;
         width: 390px;
-        background-image: url(./background.png);
+        background-image: url(./background_mobile.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -124,6 +132,12 @@
         font-size : 25px;
         font-weight: 700;
         align-items: center;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .secao_quem_somos_nos{
+        margin-right: 0px;
+        padding-right: 20px;
     }
     .smart_palavra{
         font-size : 30px;
@@ -134,29 +148,33 @@
     }
     .texto_quem_somos_nos{
         font-size : 13px;
+        text-align: center;
     }
     .titulo_home{
         color: white;
         font-family: 'Poppins', sans-serif;
         font-size : 30px;
-        padding-top: 142px;
+        padding-top: 100px;
     }
     .who_we_are{
         display: flex;
         flex-direction: column;
         width: 900px;
         align-items: flex-start;
-        margin-left: 0%;
+        margin-left: 0px;
+        margin-bottom: 0px;
     }
     .secao_quem_somos_nos{
         margin-left: 5%;
         margin-right: 5%;
         width: 320px;
     }
-    .imagem_quem_somos_nos{
+    .imagem_home_nos{
         margin-top: 100px;
         margin-left: 0%;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
+        width: 390px;
+        height: 281px;
     }
     .caixa_blocos{
         display: flex;
@@ -170,18 +188,22 @@
         height: 80%;
     }
     .bloco_marrom{
+        display: flex;
         align-items: center;
         padding-top: 30px;
         margin:20%;
-        margin-bottom: 50px;
+        margin-bottom: 0px;
         height: 264px;
         width: 252px;
     }
     .missao_bloco_1,
     .visao_bloco_2,
     .valores_bloco_3{
-        align-items: center;
+        text-align: center;
         font-size: 13px;
+    }
+    .missao_bloco_1,.valores_bloco_3{
+        padding-top: 5px;
     }
 
     .mission_title,
@@ -189,9 +211,5 @@
     .values_title{
         font-size: 20px;
         font-weight: bold;
-    }
-
-    .imagem_quem_somos_nos{
-        size-adjust: 50%;
     }
 }
