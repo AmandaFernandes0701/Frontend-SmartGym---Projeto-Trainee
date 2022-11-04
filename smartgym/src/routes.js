@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Exercicios from './pages/Exercicios';
 import Perfil from './pages/Perfil';
-import Header from './Header/Header';
+import Header from './components/Header';
 
 function Routes(){
     return(
