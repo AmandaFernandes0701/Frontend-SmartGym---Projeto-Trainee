@@ -1,6 +1,6 @@
 import React from "react";
 
 function Cadastro(){
-    return <h1>Cadastro</h1>;
+    return <h3>Cadastro</h3>;
 }
 export default Cadastro;

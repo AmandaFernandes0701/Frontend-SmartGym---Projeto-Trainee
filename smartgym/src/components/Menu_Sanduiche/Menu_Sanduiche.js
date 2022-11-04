@@ -1,4 +1,4 @@
-import { AppBar, Drawer, IconButton, List, ListItem, ListItemText, Toolbar, Typography} from "@mui/material";
+import { AppBar, Drawer, IconButton, List, ListItem, ListItemText, Toolbar, Typography } from "@mui/material";
 import React, { useState } from "react";
 import { IconContext, icons } from "react-icons/lib";
 import { RiHomeHeartFill } from "react-icons/ri";
@@ -9,7 +9,6 @@ import { FiLogIn, FiMenu } from "react-icons/fi";
 import "./Menu_Sanduiche.css";
 import { useHistory } from "react-router-dom";
 import { ClassNames } from "@emotion/react";
-import Logo from "./logo_icon.png"
 import { color, fontStyle } from "@mui/system";
 
 function Menu_Sanduiche() {
@@ -22,38 +21,38 @@ function Menu_Sanduiche() {
         setcurrentPage(pathName);
     }
 
-    function handleDrawer(isOpen){
+    function handleDrawer(isOpen) {
         setOpen(isOpen);
     }
 
     const pages = [
         {
             pathName: "/home",
-            icon: <RiHomeHeartFill/>,
+            icon: <RiHomeHeartFill />,
             text: "Home",
             iconSize: "1.5em"
         },
         {
             pathName: "/perfil",
-            icon: <ImProfile/>,
+            icon: <ImProfile />,
             text: "Perfil",
             iconSize: "1.5em"
         },
         {
             pathName: "/cadastro",
-            icon: <BsFillPersonPlusFill/>,
+            icon: <BsFillPersonPlusFill />,
             text: "Cadastro",
             iconSize: "1.5em"
         },
         {
             pathName: "/exercicios",
-            icon: <GiWeightLiftingUp/>,
+            icon: <GiWeightLiftingUp />,
             text: "Exercícios",
             iconSize: "1.5em"
         },
         {
             pathName: "/login",
-            icon: <FiLogIn/>,
+            icon: <FiLogIn />,
             text: "Login",
             iconSize: "1.5em"
         },
@@ -61,46 +60,35 @@ function Menu_Sanduiche() {
 
     return (
         <>
-        <AppBar position="static">
-            <Toolbar className="Toolbar">
-                <div className="Logo_Smart_Gym">
-                    <img src={Logo}/>
-                </div>
-                <div className="Smart_Gym_Titulo">
-                    <p>Smart Gym</p>
-                </div>
-                <IconButton
-                    edge ="start"
-                    color = "inherit"
-                    aria-label="menu"
-                    onClick={()=> handleDrawer(!open)}
-                >
-                    <FiMenu/>
-                </IconButton>
-            </Toolbar>
+            <IconButton
+                edge="start"
+                color="inherit"
+                aria-label="menu"
+                onClick={() => handleDrawer(!open)}
+            >
+                <FiMenu />
+            </IconButton>
 
-        </AppBar>
-
-        <Drawer open={open} onClose ={()=> handleDrawer(false)}>
-            <List className="list">
-                {pages.map((listItem) => {
-                    return (
-                        <ListItem button
-                            selected={currentPage === listItem.pathName}
-                            onClick={() => { handleClick(listItem.pathName) }}>
-                            <IconContext.Provider value={{ color: "#FFFFFF", size: listItem.iconSize}}>
-                                {listItem.icon}
-                            </IconContext.Provider>
-                            <ListItemText className="ListItemText"
-                            font-color="white"
-                            >
-                                <Typography>{listItem.text}</Typography>
-                            </ListItemText>
-                        </ListItem>
-                    );
-                })}
-            </List>
-        </Drawer>
+            <Drawer open={open} onClose={() => handleDrawer(false)}>
+                <List className="list">
+                    {pages.map((listItem) => {
+                        return (
+                            <ListItem button
+                                selected={currentPage === listItem.pathName}
+                                onClick={() => { handleClick(listItem.pathName) }}>
+                                <IconContext.Provider value={{ color: "#FFFFFF", size: listItem.iconSize }}>
+                                    {listItem.icon}
+                                </IconContext.Provider>
+                                <ListItemText className="ListItemText"
+                                    font-color="white"
+                                >
+                                    <Typography>{listItem.text}</Typography>
+                                </ListItemText>
+                            </ListItem>
+                        );
+                    })}
+                </List>
+            </Drawer>
         </>
     );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
 function Exercicios(){
-    return <h1>Exercicios</h1>;
+    return <h3>Exercicios</h3>;
 }
 export default Exercicios;
