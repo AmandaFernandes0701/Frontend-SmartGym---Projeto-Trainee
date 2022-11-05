@@ -15,16 +15,15 @@ function Login(){
       }
     return (
       <div className="base">
-        <div className="container">
+        <div className="container-login">
           <div class="login-title">
            LOGIN
           </div>
-          <Form className="inputs">
             <Form.Group controlId="Email">
               <div class="form-group-email-label">
               <Form.Label>Endereço de e-mail</Form.Label>
               </div>
-              <Form.Control type="email" onChange={(e)=>setEmail(e.target.value)}/>
+              <Form.Control type="email" class="form-controle-inputs" onChange={(e)=>setEmail(e.target.value)}/>
               
             </Form.Group>
 
@@ -32,21 +31,18 @@ function Login(){
               <div class="form-group-pass-label">
               <Form.Label>Senha</Form.Label>
               </div>
-              <Form.Control type="password" onChange={(e)=>setPassword(e.target.value)} />
+              <Form.Control type="password" class="form-controle-inputs" onChange={(e)=>setPassword(e.target.value)} />
             </Form.Group>
 
             <Form.Group>
 
-            <button class="button" type="submit" onClick={(login)}> 
+            <button class="button" type="submit" oncLICK>
               <div class="button-label">
                 ENTRAR
               </div>
               </button>
             </Form.Group>
             {/* <Button variant="primary" onClick={(login)} > Entrar </Button> */}
-            
-
-          </Form>
     
         </div>
       </div>
