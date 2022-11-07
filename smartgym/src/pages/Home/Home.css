@@ -1,0 +1,240 @@
+.body{
+    background-color: #161616;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+.plano_de_fundo_home{
+    height: 1200px;
+    width: 100%;
+    background-image: url(./background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo_home{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size : 80px;
+    padding-top: 320px;
+    margin-left: 10%;
+}
+.seja_smart_gym{
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.smart_palavra{
+    font-size : 80px;
+    color: #DD1717;
+}
+
+.subtitulo_home{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size : 30px;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-bottom: 348px;
+}
+.caixa_blocos{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.who_we_are{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: 8%;
+    margin-bottom: 0px;
+}
+.secao_quem_somos_nos{
+    height: 325px;
+    width: 650px;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.titulo_quem_somos_nos{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size : 50px;
+    font-weight: bold;
+}
+
+.texto_quem_somos_nos{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size : 18px;
+}
+
+.imagem_home_nos{
+    height: 330px;
+    width: 528px;
+    margin-right: 13%;
+}
+
+.bloco_marrom{
+    padding-top: 30px;
+    margin-top: 145px;
+    flex-direction: column;
+    height: 320px;
+    width: 345px;
+    background-color: #5D1111;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.missao_bloco_1,.visao_bloco_2,.valores_bloco_3 {
+    font-family: 'Poppins', sans-serif;
+    height: 80%;
+    width: 80%;
+    color: white;
+    font-size : 18px;
+    text-align: center;
+}
+.missao_bloco_1, .valores_bloco_3{
+    padding-top: 20px;
+}
+.visao_bloco_2{
+    padding-top: 7px;
+}
+
+.missao_titulo,.visao_titulo,.valores_titulo {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-weight: bold;
+}
+.mission_title,.vision_title,.values_title{
+    margin-left: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size : 26px;
+}
+@media( min-width: 1500px){
+    .who_we_are{
+       padding-right: 2%;
+       padding-left: 3.5%;
+    }
+    .imagem_home_nos{
+        margin-top: 100px;
+        margin-left: 0%;
+        margin-bottom: 30px;
+        width: calc(102%);
+        height: calc(102%);
+    }
+}
+
+@media( max-width: 900px){
+    .body{
+        align-items: center;
+        padding-bottom: 40px;
+        width: 100%;
+    }
+    .plano_de_fundo_home{
+        height: 793px;
+        width: 100%;
+        background-image: url(./background_mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .titulo_quem_somos_nos{
+        font-size : 25px;
+        font-weight: 700;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .secao_quem_somos_nos{
+        margin-right: 0px;
+        padding-right: 20px;
+    }
+    .smart_palavra{
+        font-size : 30px;
+    }
+    .subtitulo_home{
+        font-size : 15px;
+        padding-left: 0%;
+    }
+    .texto_quem_somos_nos{
+        font-size : 13px;
+        text-align: center;
+    }
+    .titulo_home{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size : 30px;
+        padding-top: 100px;
+    }
+    .who_we_are{
+        display: flex;
+        flex-direction: column;
+        width: 900px;
+        align-items: flex-start;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .secao_quem_somos_nos{
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 320px;
+    }
+    .imagem_home_nos{
+        margin-top: 100px;
+        margin-left: 0%;
+        margin-bottom: 30px;
+        width: 390px;
+        height: 281px;
+    }
+    .caixa_blocos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .missao_bloco_1,
+    .visao_bloco_2,
+    .valores_bloco_3{
+        width: 80%;
+        height: 80%;
+    }
+    .bloco_marrom{
+        display: flex;
+        align-items: center;
+        padding-top: 30px;
+        margin:20%;
+        margin-bottom: 0px;
+        height: 264px;
+        width: 252px;
+    }
+    .missao_bloco_1,
+    .visao_bloco_2,
+    .valores_bloco_3{
+        text-align: center;
+        font-size: 13px;
+    }
+    .missao_bloco_1,.valores_bloco_3{
+        padding-top: 5px;
+    }
+
+    .mission_title,
+    .vision_title,
+    .values_title{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .image_mission_icon,
+    .image_vision_icon,
+    .image_values_icon
+    {
+        height: 25px;
+        width: 25px;
+    }
+}
