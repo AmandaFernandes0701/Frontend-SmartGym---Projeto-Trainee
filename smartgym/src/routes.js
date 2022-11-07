@@ -11,6 +11,7 @@ import Header from "./Header/Header";
 function Routes(){
     return(
         <BrowserRouter>
+        <Header/>
             <Switch>
                 <Route path='/login' component={Login}/>
                 <Route path='/home' component={Home}/>
