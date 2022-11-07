@@ -28,71 +28,74 @@ function Cadastro() {
 
             <h1 className="dadosPessoais">Dados Pessoais</h1>
             
-            <div className="linha1text">
-                <p className="textNome">Nome</p>
-                <p className="textIdade">Idade</p>
-            </div>
-            
             <div className="linha1">
-                <input className="inputNome"
-                   type="text" 
-                   name='nome'
-                   onChange={handleInputChange}
-                />
-                <input className="inputIdade"
-                   type="number" 
-                   name='idade'
-                   onChange={handleInputChange} 
-                />
-            </div>
-
-            <div className="linha2text">
-                <p className="textCPF">CPF</p>
-                <p className="textSexo">Sexo</p>
+                <div className="bloco1">
+                    <p className="textNome">Nome</p>
+                    <input className="inputNome"
+                       type="text" 
+                       name='nome'
+                       onChange={handleInputChange}
+                    />
+                </div>
+                <div className="bloco2">
+                    <p className="textIdade">Idade</p>
+                    <input className="inputIdade"
+                       type="number" 
+                       name='idade'
+                       onChange={handleInputChange}
+                    />
+                </div>
             </div>
 
             <div className="linha2">
-                <input className="inputCPF"
-                   type="tel" 
-                   name='cpf'
-                   onChange={handleInputChange}
-                />                
-                <input className="inputSexo"
-                   type="text" 
-                   name='sexo'
-                   onChange={handleInputChange} 
-                />
-            </div>
+                <div className="bloco3">
+                    <p className="textCPF">CPF</p>
+                    <input className="inputCPF"
+                       type="tel" 
+                       name='cpf'
+                       onChange={handleInputChange}
+                    />          
+                </div>
 
-            <div className="linha3text">
-                <p className="textEndereco">Endereço</p>
+                <div className="bloco4">
+                    <p className="textSexo">Sexo</p>
+                    <input className="inputSexo"
+                       type="text" 
+                       name='sexo'
+                       onChange={handleInputChange} 
+                    />
+                </div>
             </div>
             
             <div className="linha3">
-                <input className="inputEndereco"
-                   type="text" 
-                   name='endereco'
-                   onChange={handleInputChange}
-                />
-            </div>
-
-            <div className="linha4text">
-                <p className="textCidadeEstado">Cidade / Estado</p>
-                <p className="textTelefone">Telefone</p>
+                <div className="bloco5">
+                    <p className="textEndereco">Endereço</p>
+                    <input className="inputEndereco"
+                       type="text" 
+                       name='endereco'
+                       onChange={handleInputChange}
+                    />
+                </div>
             </div>
 
             <div className="linha4">
-                <input className="inputCidadeEstado"
-                   type="text" 
-                   name='cidadeEstado'
-                   onChange={handleInputChange}
-                />                
-                <input className="inputTelefone"
-                   type="tel" 
-                   name='telefone'
-                   onChange={handleInputChange} 
-                />
-            </div>
+                <div className="bloco6">
+                    <p className="textCidadeEstado">Cidade / Estado</p>
+                    <input className="inputCidadeEstado"
+                       type="text" 
+                       name='cidadeEstado'
+                       onChange={handleInputChange}
+                    />                
+                </div>
+                <div className="bloco7">
+                    <p className="textTelefone">Telefone</p>
+                    <input className="inputTelefone"
+                       type="tel" 
+                       name='telefone'
+                       onChange={handleInputChange} 
+                    />
+                </div>
+            </div>    
 
             <h1 className="dadosLogin">Dados de Login</h1>
 
