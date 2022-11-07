@@ -1,0 +1,9 @@
+.list{
+    width: 260px;
+    background-image: linear-gradient(to bottom, #161616, #5D1111);
+    height: 100%;
+}
+.ListItemText{
+    margin-left: 16px;
+    color: white;
+}

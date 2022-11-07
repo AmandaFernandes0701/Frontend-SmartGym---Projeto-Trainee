@@ -4,19 +4,19 @@ import Cadastro from './pages/Cadastro';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Exercicios from './pages/Exercicios';
-import Perfil from './pages/Perfil';
-import Header from './components/Header';
+import Perfil from './pages/Perfil'; 
+import Header from "./components/Header";
 
 function Routes(){
     return(
         <BrowserRouter>
+        <Header/>
             <Switch>
                 <Route path='/login' component={Login}/>
                 <Route path='/home' component={Home}/>
                 <Route path='/cadastro' component={Cadastro}/>
                 <Route path='/exercicios' component={Exercicios}/>
                 <Route path='/perfil' component={Perfil}/>
-        {/* Obs: colocar <Header/> */}
             </Switch>
         </BrowserRouter>
     )
