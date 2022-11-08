@@ -6,6 +6,7 @@ import Login from './pages/Login';
 import Exercicios from './pages/Exercicios';
 import Perfil from './pages/Perfil'; 
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function Routes(){
     return(
@@ -18,6 +19,7 @@ function Routes(){
                 <Route path='/exercicios' component={Exercicios}/>
                 <Route path='/perfil' component={Perfil}/>
             </Switch>
+        <Footer/>
         </BrowserRouter>
     )
 }
