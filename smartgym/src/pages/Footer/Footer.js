@@ -3,7 +3,7 @@ import "./Footer.css"
 
 function Footer(){
     return(
-        <div className="body">
+        <div className="body_footer">
             <div className="Smart_Gym_footer">
                 <div className="icon_smart_gym_footer">
                 <img src="/images/logo_icon.png" alt="logo_icon_imagem" className="imagem_logo_footer"/>

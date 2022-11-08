@@ -1,4 +1,4 @@
-.body{
+.body_footer{
     display: flex;
     flex-direction: row;
     background-image: linear-gradient(to bottom, #161616, #5D1111);
@@ -82,7 +82,7 @@
 }
 
 @media( max-width: 900px){
-    .body{
+    .body_footer{
         display: flex;
         flex-direction: column;
         height: 280px;
