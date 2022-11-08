@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -8,5 +10,5 @@
 html,
 body,
 div#root {
-    min-height: 100vh;
+    min-height: 100%;
 }
