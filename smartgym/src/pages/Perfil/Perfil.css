@@ -1,0 +1,17 @@
+.container-dados1{
+    display: flex;
+    flex-direction: column;
+    max-width: 20%;
+    height: 20%;
+    align-items: center;
+    background-color: #832A;
+}
+
+.base{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #151515;
+}
+
