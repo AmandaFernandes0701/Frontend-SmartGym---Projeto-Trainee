@@ -49,35 +49,55 @@
 .inputEmail, .inputSenha {
     background-color: #D9D9D9;
     border-radius: 5px;
-    stroke: #151515;
-    height: 150%;
     padding-left: 1%;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
+    height: 60%;
+    stroke: #000000;
+    border-style: solid;
+    border-color: #000000;
 }   
 
-/* .inputNome, .inputCPF, .inputCidade,
-.inputEmail, .inputSenha{
-    margin-left: 4%;
-} */
+.linha1text, .linha2text, .linha3text, .linha4text, .linha5text{
+    width: 100%;
+    display: grid;
+    row-gap: 5%;
+}
 
-.inputTelefone{
-    margin-left: 6%;
+.bloco1, .bloco2, .bloco6, .bloco7{
+    width: 40%;
+    margin-right: 8%;
 }
- 
-.inputNome, .inputTelefone{
-    width: 38%;
+
+.bloco8, .bloco9{
+    width: 100%;
+    margin-right: 2%;
 }
+
+.bloco1, .bloco2, .bloco6, .bloco7, .bloco8, .bloco9,
+.bloco3, .bloco4, .bloco5{
+    height: 80%; 
+}
+
+.bloco3, .bloco4, .bloco5{
+    width: 27%;
+    margin-right: 4.2%;
+}
+
+
+.inputNome, .inputTelefone, .inputCidade,
+.inputEndereco{
+    width: 100%;
+}
+
+.inputEmail, .inputSenha{
+    width: 90%;
+}
+
 
 .inputCPF, .inputIdade, .inputSexo{
-    width: 24.1%;
-} */
-
-.inputIdade, .inputSexo{
-    margin-left: 5%;
+    width: 95%;
 }
-
-
 
 .textNome, .textTelefone, .textCPF,
 .textIdade, .textSexo, .textCidade, 
@@ -88,21 +108,22 @@
     margin-top: 1%;
 }
 
-/* .textNome, .textCPF, .textCidade,
-.textEmail, .textSenha{
-    padding-left: 4%;
-} */
 
 .linha1text, .linha2text, .linha3text,
 .linha4text, .linha5text{
     display: flex;
+    height: 18%;
+    width: 100%;
     margin-left: 4%;
+    margin-right: 8%;
+    margin-bottom: 1%;
 }
 
-.linha1, .linha2, .linha3,
-.linha4, .linha5{
-    margin-left: 4%;
-    margin-right: 4%;
+.linha1text{
+    margin-top: 2%;
+}
+.linha5text{
+    margin-bottom: 2%;
 }
 
 .container-exercicios{
@@ -113,13 +134,3 @@
     height: 30%;
     margin-top: 3%;
 }
-
-/* .container-dados1{
-    margin-top: -5%;
-    display: flex;
-    flex-direction: column;
-    width: 61.8%;
-    height: 40%;
-    background-color: #832A2A;
-    border-radius: 25px;
-} */
