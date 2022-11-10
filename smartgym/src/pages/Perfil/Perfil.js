@@ -110,7 +110,67 @@ function Perfil(){
         </div>
 
         <div className="container-exercicios">
-            Container
+            
+            <div className="Titulo">
+                Exercícios em andamento
+            </div>
+
+            <div className="linha1">
+                <div className="grupo1">
+                        <div className="Label-da-imagem">
+                        Flexão
+                        </div>
+                        <img>
+                        
+                        </img>
+
+                </div>
+                <div className="grupo2">
+                        <div className="Label-da-imagem">
+                        Leg Press
+                        </div>
+                        <img>
+                        
+                        </img>
+                </div>
+            </div>
+            <div className="linha2">
+                <div className="grupo3">
+                <div className="Label-da-imagem">
+                        Caixa extensora
+                        </div>
+                        <img>
+                        
+                        </img>
+                </div>  
+                <div className="grupo4">
+                <div className="Label-da-imagem">
+                        Agachamento livre
+                        </div>
+                        <img>
+                        
+                        </img>
+                </div>
+            </div>
+            <div className="linha3">
+                <div className="grupo5">
+                <div className="Label-da-imagem">
+                Extensão tríceps
+
+                        </div>
+                        <img>
+                        </img>
+                </div>
+                <div className="grupo6">
+                <div className="Label-da-imagem">
+                        Quadríceps e coluna
+                        </div>
+                        <img>
+                        
+                        </img>
+                </div>
+            </div>
+
         </div>
 
     </div>

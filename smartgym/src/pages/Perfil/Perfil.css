@@ -101,7 +101,8 @@
 
 .textNome, .textTelefone, .textCPF,
 .textIdade, .textSexo, .textCidade, 
-.textEndereco, .textEmail, .textSenha{
+.textEndereco, .textEmail, .textSenha,
+.Titulo{
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     color: #000000;
@@ -128,9 +129,38 @@
 
 .container-exercicios{
     display: flex;
+    flex-direction: column;
     background-color: #832A2A;
     border-radius: 25px;
     width: 61.8%;
-    height: 30%;
+    height: 35%;
     margin-top: 3%;
+}
+
+.Titulo{
+    width: 100%;
+    height: 15%;
+    margin-top: 2%;
+    margin-left: 4%;
+    font-size: large;
+}
+
+.linha1, .linha2, .linha3{
+    width: 92%;
+    height: 20%;
+    align-self: center;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.grupo1, .grupo2, .grupo3, .grupo4, .grupo5, .grupo6{
+    height: 100%;
+    width: 50%;
+    margin-right: 5%;
+ }
+ .Label-da-imagem{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: medium;
 }
