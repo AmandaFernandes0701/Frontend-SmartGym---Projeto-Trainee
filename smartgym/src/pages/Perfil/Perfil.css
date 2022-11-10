@@ -159,8 +159,10 @@
     width: 50%;
     margin-right: 5%;
  }
+
  .Label-da-imagem{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: medium;
+    margin-left: 10%;
 }

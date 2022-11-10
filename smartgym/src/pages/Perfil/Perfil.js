@@ -120,18 +120,18 @@ function Perfil(){
                         <div className="Label-da-imagem">
                         Flexão
                         </div>
-                        <img>
+                        {/* <img>
                         
-                        </img>
+                        </img> */}
 
                 </div>
                 <div className="grupo2">
                         <div className="Label-da-imagem">
                         Leg Press
                         </div>
-                        <img>
+                        {/* <img>
                         
-                        </img>
+                        </img> */}
                 </div>
             </div>
             <div className="linha2">
@@ -139,17 +139,17 @@ function Perfil(){
                 <div className="Label-da-imagem">
                         Caixa extensora
                         </div>
-                        <img>
+                        {/* <img>
                         
-                        </img>
+                        </img> */}
                 </div>  
                 <div className="grupo4">
                 <div className="Label-da-imagem">
                         Agachamento livre
                         </div>
-                        <img>
+                        {/* <img>
                         
-                        </img>
+                        </img> */}
                 </div>
             </div>
             <div className="linha3">
@@ -158,16 +158,16 @@ function Perfil(){
                 Extensão tríceps
 
                         </div>
-                        <img>
-                        </img>
+                        {/* <img>
+                        </img> */}
                 </div>
                 <div className="grupo6">
                 <div className="Label-da-imagem">
                         Quadríceps e coluna
                         </div>
-                        <img>
+                        {/* <img>
                         
-                        </img>
+                        </img> */}
                 </div>
             </div>
 
