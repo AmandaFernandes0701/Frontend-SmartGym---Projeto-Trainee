@@ -26,7 +26,7 @@
 .marcador-pagina-anterior, .perfil-do-user{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 100%;
 }
 
 .perfil-do-user{
@@ -61,7 +61,8 @@
 .linha1text, .linha2text, .linha3text, .linha4text, .linha5text{
     width: 100%;
     display: grid;
-    row-gap: 5%;
+    row-gap: 20%;
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
 }
 
 .bloco1, .bloco2, .bloco6, .bloco7{
@@ -107,6 +108,7 @@
     font-weight: 700;
     color: #000000;
     margin-top: 1%;
+    font-size: 80%;
 }
 
 
@@ -142,7 +144,7 @@
     height: 15%;
     margin-top: 2%;
     margin-left: 4%;
-    font-size: large;
+    font-size: 100%;
 }
 
 .linha1, .linha2, .linha3{
@@ -163,6 +165,12 @@
  .Label-da-imagem{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: medium;
+    font-size: 90%;
     margin-left: 10%;
+}
+
+@media (max-width: 390px){
+    .linha1text{
+        margin-top: 10%;
+    }
 }
