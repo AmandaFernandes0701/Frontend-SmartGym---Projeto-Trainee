@@ -1,0 +1,264 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #161616;
+    background: 
+       linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+       url(./academia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1415px;
+}
+
+.titulo {
+    display: flex;
+    margin-top: 6%;
+    width: 97%;
+    height: 5%;
+    background-color: #5E1111;
+}
+
+.inputs {
+    margin-top: 4%;
+    width: 97%;
+    height: 83%;
+    background: rgba(94, 17, 17, 0.7);
+}
+
+.dadosLogin, .dadosPessoais, .textTitulo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 200%;
+    color: #FFFFFF;
+    line-height: 150%;
+}
+
+.textNome, .textIdade, .textCPF, .textSexo, .textEndereco,
+.textCidadeEstado, .textTelefone, .textEmail, .textSenha, .textConfSenha {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 160%;
+    color: #FFFFFF;
+    line-height: 150%;
+}
+
+.textTitulo {
+    margin-top: 1%;
+    margin-left: 3%;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.dadosPessoais {
+    margin-top: 2%;
+    margin-left: 3%;
+    font-weight: 700;
+}
+
+.dadosLogin {
+    margin-top: 4%;
+    margin-left: 3%;
+}
+
+.linha1, .linha2, .linha3, .linha4 {
+    display: grid;
+    grid-row-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+}
+
+.bloco1, .bloco2, .bloco3, .bloco4,
+.bloco5, .bloco6, .bloco7 {
+    display: flex;
+    flex-direction: column;
+}
+
+.bloco1, .bloco3, .bloco5, .bloco6 {
+    margin-left: 3%;
+}
+
+.textNome, .textCPF, .textEndereco, .textCidadeEstado,
+.textEmail, .textSenha, .textConfSenha {
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.textIdade {
+    margin-top: 2%;
+    margin-left: 60%;
+}
+
+.textSexo {
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.textTelefone {
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.inputNome, .inputIdade, .inputCPF, .inputSexo,
+.inputEndereco, .inputCidadeEstado, .inputTelefone,
+.inputEmail, .inputSenha, .inputConfirmarSenha {
+    margin-top: 1%;
+    margin-left: 3%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding-left: 1%;
+    font-size: 130%;
+}
+
+.inputNome {
+    width: 150%;
+}
+
+.inputIdade {
+    margin-left: 60%;
+    width: 32%;
+}
+
+.inputCPF, .inputCidadeEstado {
+    width: 97%;
+}
+
+.inputSexo, .inputTelefone
+ {
+    margin-left: 10%;
+    width: 82%;
+}
+
+.inputEndereco {
+    width: 192%;
+}
+
+.inputEmail, .inputSenha, .inputConfirmarSenha {
+    width: 93%;
+}
+
+.botaoCadastro {
+    margin-top: 5%;
+    margin-left: 42%;
+    width: 20%;
+    height: 4%;
+    border-radius: 45px;
+    background-color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 150%;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 1%;
+}
+
+@media (max-width: 390px) {
+    
+    .linha1, .linha2, .linha3, .linha4 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .dadosLogin, .dadosPessoais, .textTitulo {
+        font-size: 150%;
+        line-height: 150%;
+    }
+    
+    .textNome, .textIdade, .textCPF, .textSexo, .textEndereco,
+    .textCidadeEstado, .textTelefone, .textEmail, .textSenha, .textConfSenha {
+        font-size: 100%;
+        line-height: 150%;
+    }
+
+    .textTitulo {
+        margin-left: 6%;
+        line-height: 150%;
+    }
+
+    .dadosPessoais, .dadosLogin {
+        margin-left: 6%;
+    }
+
+    .dadosPessoais {
+        margin-top: 6%;
+    }
+
+    .dadosLogin {
+        margin-top: 15%;
+    }
+
+    .textIdade, .textCPF, .textSexo,
+    .textEndereco, .textCidadeEstado, .textTelefone {
+        margin-left: 7%;
+    }
+
+    .textNome, .textCPF, .textEndereco, .textCidadeEstado {
+        margin-left: 2%;
+    }
+
+    .textEmail, .textSenha, .textConfSenha {
+        margin-left: 7%;
+        margin-top: 4%;
+    }
+
+    .bloco1, .bloco3, .bloco5, .bloco6 {
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+
+    .bloco2, .bloco4, .bloco7 {
+        margin-top: -4%;
+    }
+
+    .inputNome, .inputIdade, .inputCPF, .inputSexo,
+    .inputEndereco, .inputCidadeEstado, .inputTelefone,
+    .inputEmail, .inputSenha, .inputConfirmarSenha {
+        height: 30px;
+        font-size: 85%;
+        margin-left: 5%;
+    }
+
+    .inputNome, .inputEndereco {
+        width: 93%;
+        margin-left: 0.8%;
+    }
+    
+    .inputIdade {
+        width: 32%;
+        margin-left: 6%;
+    }
+    
+    .inputCPF, .inputCidadeEstado {
+        width: 80%;
+        margin-left: 1%;
+    }
+    
+    .inputSexo, .inputTelefone {
+        width: 77%;
+        margin-left: 6%;
+    }
+    
+    .inputEmail, .inputSenha, .inputConfirmarSenha {
+        width: 90%;
+        margin-left: 6%;
+        margin-top: 1%;
+    }
+
+    .botaoCadastro {
+        margin-left: 30%;
+        margin-top: 14%;
+        width: 40%;
+        height: 3%;
+        font-size: 100%;
+        align-items: center;
+        padding-left: 9%;
+    }
+
+    .inputs {
+        height: 86%;
+    }
+
+    .container {
+        height: 1185px;
+    }
+}

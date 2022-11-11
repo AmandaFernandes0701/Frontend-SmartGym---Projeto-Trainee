@@ -1,0 +1,56 @@
+.frame {   
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+}
+
+.frameImage {
+   width:50%;
+   height: 80%;
+}
+
+.frameText {
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-left: 5%;
+   padding-right: 5%;
+}
+
+.frameTitle {
+   font-family: 'Poppins', sans-serif;
+   font-size: 90%;
+   color: #FFFFFF;
+   text-align: center;
+   align-content: center;
+   width: 100%;
+}
+
+.frameDescription {
+   font-family: 'Poppins', sans-serif;
+   font-size: 55%;
+   color: #747474;
+   text-align: center;
+   width: 100%;
+   text-align: justify;
+}
+
+.frameButton {
+   background-color: #5D1111;
+   border: none;
+   color: #FFFFFF;
+   padding: 6% 25%;
+   text-align: center;
+   display: inline-block;
+   font-family: 'Poppins', sans-serif;
+   font-size: 60%;
+   margin-top: 5%;
+   cursor: pointer;
+   align-content: center;
+}
+
+/*style={{ width: "95%", height: "76%" }}*/
