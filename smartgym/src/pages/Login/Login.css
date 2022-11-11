@@ -6,7 +6,7 @@
     background-color: #5D1111;
     padding-top: 5%;
     margin: 9.8%;
-    height: 200%;
+    height: 100%;
     width: 24%;
 }
 
@@ -80,4 +80,12 @@
     font-weight: 400;
     color: #FFFFFF;
     justify-content: center;
+}
+
+@media (max-width: 390px){
+
+    .container-login{
+        height: 300px;
+    }
+
 }
