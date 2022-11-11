@@ -120,7 +120,7 @@ function Cadastro() {
                onChange={handleInputChange} 
             />
 
-            <button className="botao" onClick={ () => {history.push("home");}}>
+            <button className="botaoCadastro" onClick={ () => {history.push("home");}}>
                 Prosseguir
             </button>
 

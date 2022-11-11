@@ -26,7 +26,7 @@
     background: rgba(94, 17, 17, 0.7);
 }
 
-h1 {
+.dadosLogin, .dadosPessoais, .textTitulo {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 200%;
@@ -34,7 +34,8 @@ h1 {
     line-height: 150%;
 }
 
-p {
+.textNome, .textIdade, .textCPF, .textSexo, .textEndereco,
+.textCidadeEstado, .textTelefone, .textEmail, .textSenha, .textConfSenha {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 160%;
@@ -46,7 +47,7 @@ p {
     margin-top: 1%;
     margin-left: 3%;
     font-weight: 700;
-    line-height: 140%;
+    line-height: 100%;
 }
 
 .dadosPessoais {
@@ -137,7 +138,7 @@ p {
     width: 93%;
 }
 
-.botao {
+.botaoCadastro {
     margin-top: 5%;
     margin-left: 42%;
     width: 20%;
@@ -158,12 +159,13 @@ p {
         flex-direction: column;
     }
     
-    h1 {
+    .dadosLogin, .dadosPessoais, .textTitulo {
         font-size: 150%;
         line-height: 150%;
     }
     
-    p {
+    .textNome, .textIdade, .textCPF, .textSexo, .textEndereco,
+    .textCidadeEstado, .textTelefone, .textEmail, .textSenha, .textConfSenha {
         font-size: 100%;
         line-height: 150%;
     }
@@ -242,12 +244,14 @@ p {
         margin-top: 1%;
     }
 
-    .botao {
+    .botaoCadastro {
         margin-left: 30%;
-        margin-top: 18%;
+        margin-top: 14%;
         width: 40%;
         height: 3%;
         font-size: 100%;
+        align-items: center;
+        padding-left: 9%;
     }
 
     .inputs {
