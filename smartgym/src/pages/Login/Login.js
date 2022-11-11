@@ -20,24 +20,24 @@ function Login(){
             LOGIN
             </div>
               <div className="linha1text">
-              <div className="textEmail">Endereço de e-mail</div>
+              <div className="text--Email">Endereço de e-mail</div>
               </div>
 
-              <div className="linha1">
-                  <input className="inputEmail" type="Email" onChange={(e)=>setEmail(e.target.value)}/>
+              <div className="linha1--">
+                  <input className="input--Email" type="Email" onChange={(e)=>setEmail(e.target.value)}/>
               </div>
               
               <div className="linha2text">
-                <p className="textSenha">Senha</p>
+                <p className="text--Senha">Senha</p>
               </div>
 
-              <div className="linha2">
-                <input className="inputSenha" type="password" onChange={(e)=>setPassword(e.target.value)} />
+              <div className="linha2--">
+                <input className="input--Senha" type="password" onChange={(e)=>setPassword(e.target.value)} />
               </div>
 
 
-            <button class="button" type="submit" onClick={(login)}>
-              <div class="button-label">
+            <button class="button-generico" type="submit" onClick={(login)}>
+              <div class="button-label-generico">
                 ENTRAR
               </div>
               </button>

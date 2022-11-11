@@ -35,14 +35,21 @@ a {
     font-family: 'Poppins', sans-serif;
     color: #FFF;
     font-size : 32px;
+    
 }
 
 .botoes_menu {
+    display: flex;
     list-style: none;
     padding: 0;
+    margin-bottom: 0%;
     overflow: hidden;
     transition: all .5s;
     margin-right: 100px;
+}
+
+.botoes_menu a{
+    text-decoration: none;
 }
 
 .caixa_header {
@@ -52,17 +59,17 @@ a {
     width: 100%;
 }
 
-h1,
 .palavras_lista_header {
     text-decoration: none;
     color: #FFF;
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
     font-size: 19px;
+    margin: 0;
+    padding: 10px;
 }
 
-.caixa_header,
-ul {
+.caixa_header {
     display: flex;
     flex-direction: row;
     font-family: 'Poppins', sans-serif;
@@ -70,21 +77,23 @@ ul {
 .itens_lista_header {
     padding: 0 20px;
 }
-.palavras_lista_header h1{
+/* .palavras_lista_header{
     font-family: 'Poppins', sans-serif;
-}
-
-h1 {
     margin: 0;
     padding: 10px;
 }
+/*  */
+/* h1 {
+    margin: 0;
+    padding: 10px;
+} */ 
 
-a:hover,
 button:hover {
     cursor: pointer;
     opacity: 0.8;
     background-color: rgba(255, 255, 255, 0.2);
 }
+
 .texto_titulo_Smart_Gym{
     display: flex;
     align-items: center;
@@ -92,6 +101,9 @@ button:hover {
     font-size: 32px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+}
+.texto_titulo_Smart_Gym p{
+    margin: 0px;
 }
 
 @media (max-width: 1000px) {
@@ -103,8 +115,7 @@ button:hover {
         align-items: center;
         padding-top: 20px;
     }
-    .caixa_header,
-    ul {
+    .caixa_header {
         flex-direction: column;
     }
 
@@ -127,8 +138,8 @@ button:hover {
         display: flex;
     }
 
-    .itens_lista_header,
-    ul {
+    .itens_lista_header
+    {
         width: 100%;
     }
 

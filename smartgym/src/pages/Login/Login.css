@@ -20,7 +20,7 @@
     color: #FFFFFF;
 }
 
-.inputEmail, .inputSenha {
+.input--Email, .input--Senha {
     margin-top: 1%;
     margin-left: 3%;
     height: 40px;
@@ -34,7 +34,7 @@
     border-style: hidden;
 }
 
-.textEmail {
+.text--Email {
     margin-left: 5%;
     font-size: 15px;
     font-weight: 700;
@@ -42,7 +42,7 @@
     color: #FFFFFF;
   }
 
-.textSenha {
+.text--Senha {
     margin-top: 5%;
     margin-left: 5%;
     font-size: 15px;
@@ -61,7 +61,7 @@
     justify-content: center;
 }
 
-.button{
+.button-generico{
         align-self: center;
         cursor: pointer;
         border: 0;
@@ -75,7 +75,7 @@
 
 }
 
-.button-label{
+.button-label-generico{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: #FFFFFF;

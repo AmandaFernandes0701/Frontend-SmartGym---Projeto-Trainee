@@ -25,7 +25,10 @@
     display: flex;
     flex-direction: row;
 }
-.smart_palavra{
+.escrito_home_corrigido{
+    font-size: 80px;
+}
+.smart_palavra {
     font-size : 80px;
     color: #DD1717;
 }
