@@ -1,0 +1,91 @@
+.container-login {
+    justify-content: center;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: #5D1111;
+    padding-top: 5%;
+    margin: 9.8%;
+    height: 100%;
+    width: 24%;
+}
+
+.login-title{
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    font-weight: 700;
+    font-size: 150%;
+    color: #FFFFFF;
+}
+
+.input--Email, .input--Senha {
+    margin-top: 1%;
+    margin-left: 3%;
+    height: 40px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding-left: 5%;
+    align-self: center;
+    width: 95%;
+    background-color: #D9D9D9;
+    border-style: hidden;
+}
+
+.text--Email {
+    margin-left: 5%;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+  }
+
+.text--Senha {
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 15px;
+    margin-bottom: .05%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.base{
+    height: 100%;
+    width: 100%;
+    background-color: #161616;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-generico{
+        align-self: center;
+        cursor: pointer;
+        border: 0;
+        background-color: #161616;
+        border-radius: 50px;
+        font-weight: 600;
+        margin-top: 15%;
+        margin-bottom: 10%;
+        width: 150px;
+        padding: 10px 0;
+
+}
+
+.button-label-generico{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+@media (max-width: 390px){
+
+    .container-login{
+        height: 300px;
+    }
+
+}

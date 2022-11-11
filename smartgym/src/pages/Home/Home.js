@@ -5,20 +5,20 @@ function Home() {
     return (<div className="body">
         <div className="plano_de_fundo_home">
             <div className="titulo_home">
-                <h3>SEJA FITNESS</h3>
-                <h3>SEJA SAUDÁVEL</h3>
+                <h3 className="escrito_home_corrigido">SEJA FITNESS</h3>
+                <h3 className="escrito_home_corrigido">SEJA SAUDÁVEL</h3>
                 <div className="seja_smart_gym">
 
                     <div className="seja_palavra">
-                        <h3>SEJA</h3>
+                        <h3 className="escrito_home_corrigido">SEJA</h3>
                     </div>
 
                     <div className="smart_palavra">
-                        <h3>SMART</h3>
+                        <h3 className="escrito_home_corrigido">SMART</h3>
                     </div>
 
                     <div className="gym_palavra">
-                        <h3>GYM</h3>
+                        <h3 className="escrito_home_corrigido">GYM</h3>
                     </div>
 
                 </div>
