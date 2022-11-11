@@ -14,10 +14,10 @@ function Routes(){
         <Header/>
             <Switch>
                 <Route path='/login' component={Login}/>
-                <Route path='/home' component={Home}/>
                 <Route path='/cadastro' component={Cadastro}/>
                 <Route path='/exercicios' component={Exercicios}/>
                 <Route path='/perfil' component={Perfil}/>
+                <Route path='/' component={Home}/>
             </Switch>
         <Footer/>
         </BrowserRouter>
