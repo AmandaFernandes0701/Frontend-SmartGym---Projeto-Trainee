@@ -1,5 +1,5 @@
 .body{
-    height: 150vh;
+    height: 150%;
     display: flex;
     align-items: center;
     background-color: #151515;
@@ -13,6 +13,7 @@
     border-radius: 25px;
     width: 85%;
     background-color: #D9D9D9;
+    font-size: 80%;
     height: 7%;
     align-items: center;
     margin-bottom: 10%;
@@ -26,7 +27,7 @@
 .marcador-pagina-anterior, .perfil-do-user{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 100%;
+    font-size: 140%;
 }
 
 .perfil-do-user{
@@ -172,14 +173,26 @@
 @media (max-width: 390px){
 
     .linha1text{
-        margin-top: 10%;
+        margin-top: 30%;
+    }
+
+    .marcador-pag{
+        height: 20%;
     }
 
     .Titulo{
-        margin-top: 10%;
+        margin-top: 3%;
         font-size: 90%;
         margin-left: 4%;
     }
+   
+
+    .linha1text, .linha2text, .linha3text, .linha4text, .linha5text{
+        width: 100%;
+        margin-top: 1%;
+        display: flex;
+        flex-direction: column;
+        }
 
     .linha1, .linha2, .linha3{
         width: 92%;
@@ -198,10 +211,13 @@
     }
     
     .container-dados1{
-        width: 85%;
+        display: flex;
+        flex-direction: column;
+        height: 80%;
+        width: 90%;
     }
+
     .container-exercicios{
-        height: 43%;
         width: 85%;
     }
 
@@ -209,4 +225,5 @@
     margin-bottom: 5%;
     width: 50%;
     }
+
 }
