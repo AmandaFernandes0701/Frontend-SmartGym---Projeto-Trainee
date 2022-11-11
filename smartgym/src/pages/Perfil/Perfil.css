@@ -170,7 +170,43 @@
 }
 
 @media (max-width: 390px){
+
     .linha1text{
         margin-top: 10%;
+    }
+
+    .Titulo{
+        margin-top: 10%;
+        font-size: 90%;
+        margin-left: 4%;
+    }
+
+    .linha1, .linha2, .linha3{
+        width: 92%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin-top: 2%;
+    }
+
+    .Label-da-imagem{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 80%;
+        margin-left: 10%;
+    }
+    
+    .container-dados1{
+        width: 85%;
+    }
+    .container-exercicios{
+        height: 43%;
+        width: 85%;
+    }
+
+    .grupo1, .grupo2, .grupo3, .grupo4, .grupo5, .grupo6{
+    margin-bottom: 5%;
+    width: 50%;
     }
 }
