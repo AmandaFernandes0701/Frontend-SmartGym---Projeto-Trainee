@@ -1,0 +1,177 @@
+.body_footer{
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to bottom, #161616, #5D1111);
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 94px;
+}
+
+.Smart_Gym_footer_icon_e_titulo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.icon_smart_gym_footer{
+    margin-left: 94px;
+}
+
+.titulo_smart_gym_footer{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-top: 10px;
+    padding-left: 27px;
+    padding-right: 140px;
+    font-weight: bold;
+}
+
+.titulo_smart_gym_footer_SMART{
+    padding-right: 10px;
+}
+
+.redes_sociais_footer{
+    display: flex;
+    align-items: center;
+}
+
+.icone_whts_footer,
+.facebook_footer{
+    padding-right: 30px;
+}
+
+.icone_instagram_footer{
+    padding-right: 140px;
+}
+
+.inf_de_contato_footer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.endereco_icon_footer{
+    size: absolute;
+    height: 33px;
+    width: 33px;
+}
+
+.contato_icon_footer,
+.endereco_icon_footer,
+.telefone_icon_footer{
+    margin-right: 20px;
+}
+
+.contato_gmail,
+.contato_endereco,
+.contato_telefone{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contato_endereco{
+    align-items: center;
+}
+
+.contato_texto_footer,
+.endereco_texto_footer,
+.telefone_texto_footer{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+.icon_contact_footer,.icon_location_footer,.icon_phone_footer{
+    margin-right: 25px;
+}
+
+.icon_phone_footer{
+    height: 25px;
+}
+.icon_contact_footer{
+    height: 17px;
+}
+
+@media( max-width: 900px){
+    .body_footer{
+        display: flex;
+        flex-direction: column;
+        height: 380px;
+        width: 390px;
+        padding-bottom: 30px;
+    }
+    .Smart_Gym_footer_icon_e_titulo{
+        padding-left: 60px;
+    }
+    .icon_smart_gym_footer{
+        margin-left: 50px;
+    }
+    .titulo_smart_gym_footer{
+        font-size: 25px;
+        font-weight: bold;
+        padding-left: 15px;
+    }
+    .Smart_Gym_footer{
+        padding-top: 30px;
+    }
+    .contato_texto_footer,
+    .endereco_texto_footer,
+    .telefone_texto_footer{
+        font-size: 12px;
+    }
+    .inf_de_contato_footer{
+        padding-left: 80px;
+        width: 390px;
+    }
+    .redes_sociais_footer{
+        padding-left: 80px;
+        padding-top: 10px;
+    }
+    .imagem_logo_footer{
+        height: 25px;
+        width: 45px;
+    }
+    .icon_whatsapp_footer,
+    .icon_ig_footer{
+        height: 30px;
+        width: 30px;
+    }
+    .icon_facebook_footer{
+        height: 35px;
+        width: 35px;
+    }
+    .icon_contact_footer{
+        height: 16px;
+        width: 20px;
+        margin-right: 23px;
+    }
+    .icon_location_footer{
+        height: 25px;
+        width: 25px;
+        margin-right: 20px;
+    }
+    .icon_phone_footer{
+        height: 20px;
+        width: 20px;
+        margin-right: 20px;
+    }
+    .contato_gmail,
+    .contato_endereco,
+    .contato_telefone{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    }
+    .icone_whts_footer,.facebook_footer{
+        padding-right: 15px;
+    }
+    .icone_instagram_footer{
+        margin-right: 50px;
+    }
+   
+}

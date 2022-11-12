@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+.Menu_Sanduiche{
+    display: none;
+}
+.container_header {
+
+    display: flex;
+    height: 80px;
+}
+.Logo_Smart_Gym{
+    padding-top: 5px;
+}
+
+.caixa_logo_titulo_header {
+    width: 19%;
+    margin-left: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.caixa_logo_titulo_header img{
+    margin-right: 20px;
+}
+
+.caixa_logo_titulo_header h3{
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    font-size : 32px;
+    
+}
+
+.botoes_menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0%;
+    overflow: hidden;
+    transition: all .5s;
+    margin-right: 100px;
+}
+
+.botoes_menu a{
+    text-decoration: none;
+}
+
+.caixa_header {
+    background-color: #5D1111;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.palavras_lista_header {
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 19px;
+    margin: 0;
+    padding: 10px;
+}
+
+.caixa_header {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+}
+.itens_lista_header {
+    padding: 0 20px;
+}
+
+.palavras_lista_header:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.texto_titulo_Smart_Gym{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.texto_titulo_Smart_Gym p{
+    margin: 0px;
+}
+
+@media (max-width: 1000px) {
+
+    .caixa_logo_titulo_header h3{
+        font-size: 20px;
+    }
+    .caixa_logo_titulo_header{
+        align-items: center;
+        padding-top: 20px;
+    }
+    .caixa_header {
+        flex-direction: column;
+    }
+
+    ul {
+        text-align: center;
+        margin: 0;
+        height: 0;
+    }
+
+    .caixa_header {
+        padding: 0;
+        align-items: flex-start;
+    }
+
+    h1 {
+        margin: 10px;
+    }
+
+    button {
+        display: flex;
+    }
+
+    .itens_lista_header
+    {
+        width: 100%;
+    }
+
+    ul.responsivo {
+        height: 260px;
+    }
+    .Menu_Sanduiche{
+        display:flex;
+        position: absolute;
+        height: 80px;
+        padding-left: 90%;
+        color: #FFF;
+        font-family: 'Poppins', sans-serif;
+    }
+    .texto_titulo_Smart_Gym{
+        display: flex;
+        align-items: center;
+        color: #FFF;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+    .imagem_logo_footer{
+        height: 15px;
+        width: 35px;
+    }
+}
