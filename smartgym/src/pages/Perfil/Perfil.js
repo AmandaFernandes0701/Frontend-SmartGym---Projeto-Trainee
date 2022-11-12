@@ -3,7 +3,7 @@ import "./Perfil.css";
 
 function Perfil(){
     return (
-        <div className="body">
+        <div className="corpo-da-pagina">
             <div className="marcador-pag" >
                 <div className="marcador-pagina-anterior">
                     HOME |
@@ -17,19 +17,19 @@ function Perfil(){
             
             <div className="container-dados1">
 
-                <div className="linha1text">
+                <div className="linha1text-perfil">
 
                     <div className="bloco1">
-                        <p className="textNome">Nome</p>
-                        <input className="inputNome"
+                        <p className="text-nome-perfil">Nome</p>
+                        <input className="input-nome-perfil"
                         type="text"
                         name='nome'
                     />
                     </div>
 
                     <div className="bloco2">
-                        <p className="textTelefone">Telefone</p>
-                        <input className="inputTelefone"
+                        <p className="text-telefone-perfil">Telefone</p>
+                        <input className="input-telefone-perfil"
                         type="text"
                         name='telefone'
                     />
@@ -39,26 +39,26 @@ function Perfil(){
                 </div>
 
 
-                <div className="linha2text">
+                <div className="linha2text-perfil">
                     <div className="bloco3">
-                        <p className="textCPF">CPF</p>
-                        <input className="inputCPF"
+                        <p className="text-cpf-perfil">CPF</p>
+                        <input className="input-cpf-perfil"
                         type="text"
                         name='cpf'
                         />
                     </div>
                     
                     <div className="bloco4">
-                        <p className="textIdade">Idade</p>
-                        <input className="inputIdade"
+                        <p className="text-idade-perfil">Idade</p>
+                        <input className="input-idade-perfil"
                         type="text"
                         name='idade' 
                         />
                     </div>
 
                     <div className="bloco5">
-                        <p className="textSexo">Sexo</p>
-                        <input className="inputSexo"
+                        <p className="text-sexo-perfil">Sexo</p>
+                        <input className="input-sexo-perfil"
                         type="text"
                         name='sexo'
                         />
@@ -66,18 +66,18 @@ function Perfil(){
 
                 </div>
 
-                <div className="linha3text">
+                <div className="linha3text-perfil">
                     <div className="bloco6">
-                        <p className="textCidade">Cidade/Estado</p>
-                        <input className="inputCidade"
+                        <p className="text-cidade-perfil">Cidade/Estado</p>
+                        <input className="input-cidade-perfil"
                         type="text"
                         name='cidade'
                         />
                     
                     </div>
                     <div className="bloco7">
-                        <p className="textEndereco">Endereço</p>
-                        <input className="inputEndereco"
+                        <p className="text-endereco-perfil">Endereço</p>
+                        <input className="input-endereco-perfil"
                         type="text"
                         name='endereco' 
                         />
@@ -85,10 +85,10 @@ function Perfil(){
 
                 </div>
 
-                <div className="linha4text">
+                <div className="linha4text-perfil">
                     <div className="bloco8">
-                    <p className="textEmail">E-mail</p>
-                    <input className="inputEmail"
+                    <p className="text-email-perfil">E-mail</p>
+                    <input className="input-email-perfil"
                     type="text"
                     name='email'
                     />
@@ -97,10 +97,10 @@ function Perfil(){
                 </div>
 
 
-                <div className="linha5text">
+                <div className="linha5text-perfil">
                     <div className="bloco9">
-                        <p className="textSenha">Senha</p>
-                        <input className="inputSenha"
+                        <p className="text-senha-perfil">Senha</p>
+                        <input className="input-senha-perfil"
                         type="password"
                         name='senha'
                         />
@@ -111,12 +111,12 @@ function Perfil(){
 
             <div className="container-exercicios">
             
-                <div className="Titulo">
+                <div className="Titulo-perfil">
                     Exercícios em andamento
                 </div>
 
-                <div className="linha1">
-                    <div className="grupo1">
+                <div className="linha1-perfil">
+                    <div className="grupo1-perfil">
                             <div className="Label-da-imagem">
                             Flexão
                             </div>
@@ -125,7 +125,7 @@ function Perfil(){
                             </img> */}
 
                     </div>
-                    <div className="grupo2">
+                    <div className="grupo2-perfil">
                             <div className="Label-da-imagem">
                             Leg Press
                             </div>
@@ -134,8 +134,8 @@ function Perfil(){
                             </img> */}
                     </div>
                 </div>
-                <div className="linha2">
-                    <div className="grupo3">
+                <div className="linha2-perfil">
+                    <div className="grupo3-perfil">
                     <div className="Label-da-imagem">
                             Caixa extensora
                             </div>
@@ -143,7 +143,7 @@ function Perfil(){
                             
                             </img> */}
                     </div>  
-                    <div className="grupo4">
+                    <div className="grupo4-perfil">
                     <div className="Label-da-imagem">
                             Agachamento livre
                             </div>
@@ -152,8 +152,8 @@ function Perfil(){
                             </img> */}
                     </div>
                 </div>
-                    <div className="linha3">
-                        <div className="grupo5">
+                    <div className="linha3-perfil">
+                        <div className="grupo5-perfil">
                         <div className="Label-da-imagem">
                         Extensão tríceps
 
@@ -161,7 +161,7 @@ function Perfil(){
                                 {/* <img>
                                 </img> */}
                         </div>
-                        <div className="grupo6">
+                        <div className="grupo6-perfil">
                         <div className="Label-da-imagem">
                                 Quadríceps e coluna
                                 </div>
