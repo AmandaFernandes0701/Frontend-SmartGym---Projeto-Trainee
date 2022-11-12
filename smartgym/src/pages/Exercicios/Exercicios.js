@@ -63,7 +63,7 @@ function Exercicios(){
     return (
         <div className="body">
 
-            <div className="title">
+            <div className="titleExercicios">
                 <h2>Exercícios</h2>
             </div>
             
