@@ -23,3 +23,10 @@
     grid-row-gap: 2%;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
+
+@media( max-width: 900px){
+    .bodyExercicios {
+        padding-bottom: 150%;
+        height: 2200px;
+    }
+}
