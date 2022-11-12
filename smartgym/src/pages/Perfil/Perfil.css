@@ -1,4 +1,4 @@
-.body{
+.container-do-perfil-generico{
     height: 150vh;
     display: flex;
     align-items: center;
@@ -66,22 +66,22 @@
     grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
 }
 
-.bloco1, .bloco2, .bloco6, .bloco7{
+.bloco1-perfil, .bloco2-perfil, .bloco6-perfil, .bloco7-perfil{
     width: 40%;
     margin-right: 8%;
 }
 
-.bloco8, .bloco9{
+.bloco8-perfil, .bloco9-perfil{
     width: 100%;
     margin-right: 2%;
 }
 
-.bloco1, .bloco2, .bloco6, .bloco7, .bloco8, .bloco9,
-.bloco3, .bloco4, .bloco5{
+.bloco1-perfil, .bloco2-perfil, .bloco6-perfil, .bloco7-perfil, .bloco8-perfil, .bloco9-perfil,
+.bloco3-perfil, .bloco4-perfil, .bloco5-perfil{
     height: 80%; 
 }
 
-.bloco3, .bloco4, .bloco5{
+.bloco3-perfil, .bloco4-perfil, .bloco5-perfil{
     width: 27%;
     margin-right: 4.2%;
 }

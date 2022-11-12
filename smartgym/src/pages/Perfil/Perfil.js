@@ -4,7 +4,7 @@ import "./Perfil.css";
 
 function Perfil(){
     return (
-        <div className="body">
+        <div className="container-do-perfil-generico">
             <div className="marcador-pag" >
                 <div className="marcador-pagina-anterior">
                     HOME |
@@ -20,7 +20,7 @@ function Perfil(){
 
                 <div className="linha1text-perfil">
 
-                    <div className="bloco1">
+                    <div className="bloco1-perfil">
                         <p className="text-nome-perfil">Nome</p>
                         <input className="input-nome-perfil"
                         type="text"
@@ -28,7 +28,7 @@ function Perfil(){
                     />
                     </div>
 
-                    <div className="bloco2">
+                    <div className="bloco2-perfil">
                         <p className="text-telefone-perfil">Telefone</p>
                         <input className="input-telefone-perfil"
                         type="text"
@@ -41,7 +41,7 @@ function Perfil(){
 
 
                 <div className="linha2text-perfil">
-                    <div className="bloco3">
+                    <div className="bloco3-perfil">
                         <p className="text-cpf-perfil">CPF</p>
                         <input className="input-cpf-perfil"
                         type="text"
@@ -49,7 +49,7 @@ function Perfil(){
                         />
                     </div>
                     
-                    <div className="bloco4">
+                    <div className="bloco4-perfil">
                         <p className="text-idade-perfil">Idade</p>
                         <input className="input-idade-perfil"
                         type="text"
@@ -57,7 +57,7 @@ function Perfil(){
                         />
                     </div>
 
-                    <div className="bloco5">
+                    <div className="bloco5-perfil">
                         <p className="text-sexo-perfil">Sexo</p>
                         <input className="input-sexo-perfil"
                         type="text"
@@ -68,7 +68,7 @@ function Perfil(){
                 </div>
 
                 <div className="linha3text-perfil">
-                    <div className="bloco6">
+                    <div className="bloco6-perfil">
                         <p className="text-cidade-perfil">Cidade/Estado</p>
                         <input className="input-cidade-perfil"
                         type="text"
@@ -76,7 +76,7 @@ function Perfil(){
                         />
                     
                     </div>
-                    <div className="bloco7">
+                    <div className="bloco7-perfil">
                         <p className="text-endereco-perfil">Endereço</p>
                         <input className="input-endereco-perfil"
                         type="text"
@@ -87,7 +87,7 @@ function Perfil(){
                 </div>
 
                 <div className="linha4text-perfil">
-                    <div className="bloco8">
+                    <div className="bloco8-perfil">
                     <p className="text-email-perfil">E-mail</p>
                     <input className="input-email-perfil"
                     type="text"
@@ -99,7 +99,7 @@ function Perfil(){
 
 
                 <div className="linha5text-perfil">
-                    <div className="bloco9">
+                    <div className="bloco9-perfil">
                         <p className="text-senha-perfil">Senha</p>
                         <input className="input-senha-perfil"
                         type="password"
