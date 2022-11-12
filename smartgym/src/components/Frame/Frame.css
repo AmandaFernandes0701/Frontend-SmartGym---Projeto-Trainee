@@ -20,6 +20,7 @@
    justify-content: center;
    padding-left: 5%;
    padding-right: 5%;
+   font-weight: 700;
 }
 
 .frameTitle {
@@ -33,7 +34,7 @@
 
 .frameDescription {
    font-family: 'Poppins', sans-serif;
-   font-size: 55%;
+   font-size: 65%;
    color: #747474;
    text-align: center;
    width: 100%;
@@ -48,6 +49,7 @@
    text-align: center;
    display: inline-block;
    font-family: 'Poppins', sans-serif;
+   font-weight: 700;
    font-size: 60%;
    margin-top: 5%;
    cursor: pointer;
