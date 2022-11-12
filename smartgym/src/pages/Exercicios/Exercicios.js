@@ -61,10 +61,10 @@ const frames = [
 
 function Exercicios(){
     return (
-        <div className="body">
+        <div className="bodyExercicios">
 
-            <div className="title">
-                <h2>Exercícios</h2>
+            <div className="titleExercicios">
+                <p>Exercícios</p>
             </div>
             
             <div className="frameContainer">
