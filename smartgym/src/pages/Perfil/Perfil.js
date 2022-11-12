@@ -3,7 +3,7 @@ import "./Perfil.css";
 
 function Perfil(){
     return (
-        <div className="corpo-da-pagina">
+        <div className="body">
             <div className="marcador-pag" >
                 <div className="marcador-pagina-anterior">
                     HOME |
