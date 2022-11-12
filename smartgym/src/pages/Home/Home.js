@@ -5,27 +5,27 @@ function Home() {
     return (<div className="body">
         <div className="plano_de_fundo_home">
             <div className="titulo_home">
-                <h3 className="escrito_home_corrigido">SEJA FITNESS</h3>
-                <h3 className="escrito_home_corrigido">SEJA SAUDÁVEL</h3>
+                <p className="escrito_home_seja_fitness">SEJA FITNESS</p>
+                <p className="escrito_home_corrigido_seja_saudavel">SEJA SAUDÁVEL</p>
                 <div className="seja_smart_gym">
 
-                    <div className="seja_palavra">
-                        <h3 className="escrito_home_corrigido">SEJA</h3>
-                    </div>
+                    <div className="seja_smartgym_frase_home">
+                        <div className="seja_palavra">
+                            <p className="escrito_home_seja">SEJA</p>
+                        </div>
 
-                    <div className="smart_palavra">
-                        <h3 className="escrito_home_corrigido">SMART</h3>
-                    </div>
+                        <div className="smart_palavra">
+                            <p className="escrito_home_corrigido_smart">SMART</p>
+                        </div>
 
-                    <div className="gym_palavra">
-                        <h3 className="escrito_home_corrigido">GYM</h3>
+                        <div className="gym_palavra">
+                            <p className="escrito_home_corrigido_gym">GYM</p>
+                        </div>
                     </div>
-
                 </div>
+                <div className="subtitulo_home">
+                <p lassName="escrito_home_subtitulo_home">“Quem acredita sempre alcança”</p>
             </div>
-
-            <div className="subtitulo_home">
-                <h3>“Quem acredita sempre alcança”</h3>
             </div>
         </div>
 
@@ -48,7 +48,7 @@ function Home() {
                 </div>
             </div>
             <div className="imagem_quem_somos_nos">
-                <img src="/images/imagem_home.jpg" alt="imagem_home" className="imagem_home_nos"/>
+                <img src="/images/imagem_home.jpg" alt="imagem_home" className="imagem_home_nos" />
             </div>
         </div>
 
@@ -58,7 +58,7 @@ function Home() {
             <div className="bloco_marrom">
                 <div className="missao_titulo">
                     <div className="missao_imagem">
-                        <img src="/images/missao_icon.png" alt="missao_icon_imagem" className="image_mission_icon"/>
+                        <img src="/images/missao_icon.png" alt="missao_icon_imagem" className="image_mission_icon" />
                     </div>
                     <div className="mission_title">
                         <p>Missão</p>
@@ -73,7 +73,7 @@ function Home() {
             <div className="bloco_marrom">
                 <div className="visao_titulo">
                     <div className="visao_imagem">
-                        <img src="/images/visao_icon.png" alt="vision_icon_imagem" className="image_vision_icon"/>
+                        <img src="/images/visao_icon.png" alt="vision_icon_imagem" className="image_vision_icon" />
                     </div>
                     <div className="vision_title">
                         <p>Visão</p>
@@ -88,7 +88,7 @@ function Home() {
             <div className="bloco_marrom">
                 <div className="valores_titulo">
                     <div className="valores_imagem">
-                        <img src="/images/valores_icon.png" alt="values_icon_imagem" className="image_values_icon"/>
+                        <img src="/images/valores_icon.png" alt="values_icon_imagem" className="image_values_icon" />
                     </div>
                     <div className="values_title">
                         <p>Valores</p>
