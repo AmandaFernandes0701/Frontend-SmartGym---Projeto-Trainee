@@ -1,0 +1,230 @@
+.container-do-perfil-generico{
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    background-color: #151515;
+    width: 100%;
+    flex-direction: column;
+}
+
+.marcador-pag{
+    margin-top: 2%;
+    display: flex;
+    border-radius: 25px;
+    width: 85%;
+    background-color: #D9D9D9;
+    font-size: 80%;
+    height: 7%;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.marcador-pagina-anterior{
+    color: #151515;
+    margin-left: 3%;
+}
+
+.marcador-pagina-anterior, .perfil-do-user{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 140%;
+}
+
+.perfil-do-user{
+    color: #5D1111;
+    margin-left: 1%;
+}
+
+.container-dados1{
+    margin-top: -5%;
+    display: flex;
+    flex-direction: column;
+    width: 61.8%;
+    height: 40%;
+    background-color: #832A2A;
+    border-radius: 25px;
+}
+
+.input-nome-perfil, .input-telefone-perfil, .input-cpf-perfil,
+.input-idade-perfil, .input-sexo-perfil, .input-cidade-perfil, .input-endereco-perfil,
+.input-email-perfil, .input-senha-perfil {
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    padding-left: 1%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    height: 60%;
+    stroke: #000000;
+    border-style: solid;
+    border-color: #000000;
+}   
+
+.linha1text-perfil, .linha2text-perfil, .linha3text-perfil, .linha4text-perfil, .linha5text-perfil{
+    width: 100%;
+    display: grid;
+    row-gap: 20%;
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+}
+
+.bloco1-perfil, .bloco2-perfil, .bloco6-perfil, .bloco7-perfil{
+    width: 40%;
+    margin-right: 8%;
+}
+
+.bloco8-perfil, .bloco9-perfil{
+    width: 100%;
+    margin-right: 2%;
+}
+
+.bloco1-perfil, .bloco2-perfil, .bloco6-perfil, .bloco7-perfil, .bloco8-perfil, .bloco9-perfil,
+.bloco3-perfil, .bloco4-perfil, .bloco5-perfil{
+    height: 80%; 
+}
+
+.bloco3-perfil, .bloco4-perfil, .bloco5-perfil{
+    width: 27%;
+    margin-right: 4.2%;
+}
+
+
+.input-nome-perfil, .input-telefone-perfil, .input-cidade-perfil,
+.input-endereco-perfil{
+    width: 100%;
+}
+
+.input-email-perfil, .input-senha-perfil{
+    width: 90%;
+}
+
+
+.input-cpf-perfil, .input-idade, .input-sexo-perfil{
+    width: 95%;
+}
+
+.text-nome-perfil, .text-telefone-perfil, .text-cpf-perfil,
+.text-idade-perfil, .text-sexo-perfil, .text-cidade-perfil, 
+.text-endereco-perfil, .text-email-perfil, .text-senha-perfil,
+.Titulo-perfil{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 1%;
+    font-size: 80%;
+}
+
+
+.linha1text-perfil, .linha2text-perfil, .linha3text-perfil,
+.linha4text-perfil, .linha5text-perfil{
+    display: flex;
+    height: 18%;
+    width: 100%;
+    margin-left: 4%;
+    margin-right: 8%;
+    margin-bottom: 1%;
+}
+
+.linha1text-perfil{
+    margin-top: 2%;
+}
+.linha5text-perfil{
+    margin-bottom: 2%;
+}
+
+.container-exercicios{
+    display: flex;
+    flex-direction: column;
+    background-color: #832A2A;
+    border-radius: 25px;
+    width: 61.8%;
+    height: 35%;
+    margin-top: 3%;
+}
+
+.Titulo-perfil{
+    width: 100%;
+    height: 15%;
+    margin-top: 2%;
+    margin-left: 4%;
+    font-size: 100%;
+}
+
+.linha1-perfil, .linha2-perfil, .linha3-perfil{
+    width: 92%;
+    height: 20%;
+    align-self: center;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.grupo1-perfil, .grupo2-perfil, .grupo3-perfil, .grupo4-perfil, .grupo5-perfil, .grupo6-perfil{
+    height: 100%;
+    width: 50%;
+    margin-right: 5%;
+ }
+
+ .Label-da-imagem{
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 700;
+    font-size: 90%;
+    margin-left: 10%;
+}
+
+@media (max-width: 390px){
+
+    .linha1text-perfil{
+        margin-top: 30%;
+    }
+
+    .marcador-pag{
+        height: 20%;
+    }
+
+    .Titulo-perfil{
+        margin-top: 3%;
+        font-size: 90%;
+        margin-left: 4%;
+    }
+   
+
+    .linha1text-perfil, .linha2text-perfil, .linha3text-perfil, .linha4text-perfil, .linha5text-perfil{
+        width: 100%;
+        margin-top: 1%;
+        display: flex;
+        flex-direction: column;
+        }
+
+    .linha1-perfil, .linha2-perfil, .linha3-perfil{
+        width: 92%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin-top: 2%;
+    }
+
+    .Label-da-imagem{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 80%;
+        margin-left: 10%;
+    }
+    
+    .container-dados1{
+        display: flex;
+        flex-direction: column;
+        height: 80%;
+        width: 90%;
+    }
+
+    .container-exercicios-perfil{
+        width: 85%;
+    }
+
+    .grupo1-perfil, .grupo2-perfil, .grupo3-perfil, .grupo4-perfil, .grupo5-perfil, .grupo6-perfil{
+    margin-bottom: 5%;
+    width: 50%;
+    }
+
+}
