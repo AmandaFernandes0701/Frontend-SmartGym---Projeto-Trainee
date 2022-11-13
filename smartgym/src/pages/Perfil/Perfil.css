@@ -109,7 +109,7 @@
     font-weight: 700;
     color: #000000;
     margin-top: 1%;
-    font-size: 80%;
+    font-size: 20px;
 }
 
 
@@ -173,12 +173,35 @@
 
 @media (max-width: 390px){
 
+    .container-do-perfil-generico{
+        padding-bottom: 30px;
+        height: 3000px;
+    }
+
+    .marcador-pagina-anterior{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .perfil-do-user{
+        padding-right: 15px;
+    }
+
     .linha1text-perfil{
         margin-top: 30%;
     }
 
     .marcador-pag{
-        height: 20%;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 70px;
+    }
+
+    .input-nome-perfil,.input-telefone-perfil,.input-cpf-perfil,.input-idade-perfil,
+    .input-cidade-perfil,.input-email-perfil,.input-senha-perfil{
+        width: 300px;
+        height: 39px;
     }
 
     .Titulo-perfil{
@@ -186,13 +209,42 @@
         font-size: 90%;
         margin-left: 4%;
     }
-   
 
+    .linha1text-perfil{
+        align-items: center;
+        padding-right: 350px;
+        padding-top: 30px;
+    }
+    
+    .text-nome-perfil, .text-telefone-perfil, .text-cpf-perfil,
+    .text-idade-perfil, .text-sexo-perfil, .text-cidade-perfil, 
+    .text-endereco-perfil, .text-email-perfil, .text-senha-perfil,
+    .Titulo-perfil{
+        font-size: 20px;
+    }
+    .input-idade-perfil{
+        width: 80px;
+    }
+    .input-telefone-perfil{
+        width: 300px;
+    }
+    .input-cpf-perfil{
+        width: 130px;
+    }
+    .linha2text-perfil{
+        margin-left: 25px;
+    }
+    .bloco3-perfil{
+        margin-top: 40px;
+        height: 300px;
+        width: 300px;
+    }
     .linha1text-perfil, .linha2text-perfil, .linha3text-perfil, .linha4text-perfil, .linha5text-perfil{
         width: 100%;
         margin-top: 1%;
         display: flex;
         flex-direction: column;
+        margin-bottom: 30px;
         }
 
     .linha1-perfil, .linha2-perfil, .linha3-perfil{
@@ -215,7 +267,7 @@
         display: flex;
         flex-direction: column;
         height: 80%;
-        width: 90%;
+        width: 85%;
     }
 
     .container-exercicios-perfil{
@@ -226,5 +278,14 @@
     margin-bottom: 5%;
     width: 50%;
     }
-
+    .linha2text-perfil{
+        margin-left: 15px;
+        height: 200px;
+    }
+    .bloco6-perfil{
+        margin-top: 300px;
+    }
+    .linha1text-perfil{
+        height: 130px;
+    }
 }

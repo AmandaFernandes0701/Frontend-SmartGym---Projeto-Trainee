@@ -12,7 +12,8 @@ function Header() {
                     <img src="/images/logo_icon.png" alt="logo_icon_imagem" className="imagem_logo_footer"/>
                     </div>
                     <div className="texto_titulo_Smart_Gym">
-                        <p>SmartGym</p>
+                        <p className="texto_titulo_Smart_Gym_SMART">Smart</p>
+                        <p className="texto_titulo_Smart_Gym_GYM">Gym</p>
                     </div>
                 </div>
                 <ul className="botoes_menu">

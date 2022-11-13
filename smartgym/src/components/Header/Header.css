@@ -26,6 +26,9 @@ a {
     flex-direction: row;
     align-items: center;
 }
+.texto_titulo_Smart_Gym_SMART{
+    padding-right: 10px;
+}
 
 .caixa_logo_titulo_header img{
     margin-right: 20px;
@@ -145,6 +148,7 @@ a {
         font-family: 'Poppins', sans-serif;
     }
     .texto_titulo_Smart_Gym{
+        padding-top: 5px;
         display: flex;
         align-items: center;
         color: #FFF;
@@ -156,4 +160,8 @@ a {
         height: 15px;
         width: 35px;
     }
+    .texto_titulo_Smart_Gym_SMART{
+        padding-right: 7px;
+    }
+    
 }
