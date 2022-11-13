@@ -84,8 +84,16 @@
 
 @media (max-width: 390px){
 
-    .container-login{
-        height: 300px;
+    .base{
+        height: 763px;
+    }
+    .container-login {
+        width: 305px;
+        height: 501px;
+    }
+    .button-label-generico{
+        align-items: center;
+        padding-left: 45px;
     }
 
 }
