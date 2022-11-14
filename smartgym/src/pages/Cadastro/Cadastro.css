@@ -152,6 +152,15 @@
     line-height: 1%;
 }
 
+@media( min-width: 1500px){
+    .containerCadastro{
+        height: 1700px;
+    }
+    .retanguloInputs{
+        height: 82%;
+    }
+}
+
 @media (max-width: 390px) {
 
     .linha1cadastro, .linha2cadastro, .linha3cadastro, .linha4cadastro {
@@ -261,14 +270,5 @@
 
     .containerCadastro {
         height: 1300px;
-    }
-}
-
-@media( min-width: 1400px){
-    .containerCadastro{
-        height: 1540px;
-    }
-    .retanguloInputs{
-        height: 82%;
     }
 }
