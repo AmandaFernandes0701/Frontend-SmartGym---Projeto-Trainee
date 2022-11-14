@@ -95,11 +95,13 @@ function Home() {
                     </div>
                 </div>
                 <div className="valores_bloco_3">
-                    <p>Respeito em primeiro lugar</p>
-                    <p>Juntos somos mais fortes</p>
-                    <p>Saúde mental importa</p>
-                    <p>Seja a melhor versão de si mesmo</p>
-                    <p>Foco e disciplina</p>
+                    <p> Respeito em primeiro lugar
+                        Juntos somos mais fortes
+                        Saúde mental importa
+                        <div></div>
+                        Seja a melhor versão de si mesmo
+                        <div></div>
+                        Foco e disciplina</p>
                 </div>
             </div>
 
