@@ -23,7 +23,11 @@
     grid-row-gap: 2%;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
-
+.frameButton:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: #5D1111;
+}
 @media( max-width: 900px){
     .bodyExercicios {
         padding-bottom: 150%;

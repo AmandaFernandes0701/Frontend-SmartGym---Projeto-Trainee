@@ -151,6 +151,19 @@
     color: #FFFFFF;
     line-height: 1%;
 }
+.botaoCadastro:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+@media( min-width: 1500px){
+    .containerCadastro{
+        height: 1700px;
+    }
+    .retanguloInputs{
+        height: 82%;
+    }
+}
 
 @media (max-width: 390px) {
 
@@ -261,14 +274,5 @@
 
     .containerCadastro {
         height: 1300px;
-    }
-}
-
-@media( min-width: 1400px){
-    .containerCadastro{
-        height: 1540px;
-    }
-    .retanguloInputs{
-        height: 82%;
     }
 }
