@@ -145,6 +145,9 @@
         height: 35px;
         width: 35px;
     }
+    .icon_facebook_footer{
+        margin-top: 5px;
+    }
     .icon_contact_footer{
         height: 16px;
         width: 20px;
@@ -173,5 +176,10 @@
     .icone_instagram_footer{
         margin-right: 50px;
     }
-   
+    .titulo_smart_gym_footer_SMART,.titulo_smart_gym_footer_GYM{
+        padding-top: 5px;
+    }
+    .icon_facebook_footer{
+        margin-top: 5px;
+    }
 }

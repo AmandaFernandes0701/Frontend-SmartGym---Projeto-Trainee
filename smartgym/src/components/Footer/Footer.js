@@ -47,9 +47,7 @@ function Footer(){
                 <div className="contato_endereco">
                     <img src="/images/location.jpg" alt="icone_location_footer" className="icon_location_footer"/>
                     <div className="endereco_texto_footer">
-                        <p>Avenida Dos Andradas 1005 Santa Efigênia -</p>
-                        <p>Belo Horizonte - Minas Gerais 30150 Brasil</p>
-                        <p>- Centro, Belo Horizonte - MG, 3013-110</p>
+                        <p>Avenida Dos Andradas 1005 Santa Efigênia <div/>Belo Horizonte Minas Gerais 30150 Brasil<div/>Centro, Belo Horizonte MG, 3013-110</p>
                     </div>
                 </div>
 
