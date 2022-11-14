@@ -101,7 +101,7 @@
     .body_footer{
         display: flex;
         flex-direction: column;
-        height: 380px;
+        height: 330px;
         width: 390px;
         padding-bottom: 30px;
     }
