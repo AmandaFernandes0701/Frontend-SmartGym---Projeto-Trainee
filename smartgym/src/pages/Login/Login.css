@@ -81,7 +81,11 @@
     color: #FFFFFF;
     justify-content: center;
 }
-
+.button-generico:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.2);
+}
 @media (max-width: 390px){
 
     .base{
