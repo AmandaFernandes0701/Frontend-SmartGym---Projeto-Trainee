@@ -174,8 +174,8 @@
 @media (max-width: 390px){
 
     .container-do-perfil-generico{
-        padding-bottom: 30px;
-        height: 3000px;
+        height: 1600px;
+        padding-bottom: 50px;
     }
 
     .marcador-pagina-anterior{
@@ -241,10 +241,9 @@
     }
     .linha1text-perfil, .linha2text-perfil, .linha3text-perfil, .linha4text-perfil, .linha5text-perfil{
         width: 100%;
-        margin-top: 1%;
+        margin-top: 10px;
         display: flex;
         flex-direction: column;
-        margin-bottom: 30px;
         }
 
     .linha1-perfil, .linha2-perfil, .linha3-perfil{
@@ -266,7 +265,7 @@
     .container-dados1{
         display: flex;
         flex-direction: column;
-        height: 80%;
+        height: 1000px;
         width: 85%;
     }
 
@@ -283,9 +282,37 @@
         height: 200px;
     }
     .bloco6-perfil{
-        margin-top: 300px;
+        height: 3000px;
     }
     .linha1text-perfil{
         height: 130px;
+    }
+    .input-endereco-perfil{
+        height: 39px;
+    }
+    .text-cpf-perfil{
+        margin-top: 50px;
+    }
+    .linha3text-perfil{
+        height: 400px;
+    }
+    .text-cidade-perfil, .text-endereco-perfil{
+        padding-top: 30px;
+    }
+    .bloco7-perfil{
+        padding-top: 35px;
+    }
+    .linha4text-perfil{
+        padding-bottom: 10px;
+    }
+    .text-cidade-perfil{
+        padding-top: 250px;
+    }
+    .text-email-perfil{
+        margin-top: 0px;
+    }
+    .container-exercicios{
+        height: 500px;
+        padding-bottom: 0px;
     }
 }
