@@ -1,4 +1,4 @@
-.container {
+.containerCadastro {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,10 +8,10 @@
        url(./academia.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1415px;
+    height: 1450px;
 }
 
-.titulo {
+.tituloBemVindoo {
     display: flex;
     margin-top: 6%;
     width: 97%;
@@ -19,14 +19,14 @@
     background-color: #5E1111;
 }
 
-.inputs {
+.retanguloInputs {
     margin-top: 4%;
     width: 97%;
     height: 83%;
     background: rgba(94, 17, 17, 0.7);
 }
 
-.dadosLogin, .dadosPessoais, .textTitulo {
+.dadosLoginn, .dadosPessoaiss, .textTituloBemVindoo {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 200%;
@@ -34,8 +34,8 @@
     line-height: 150%;
 }
 
-.textNome, .textIdade, .textCPF, .textSexo, .textEndereco,
-.textCidadeEstado, .textTelefone, .textEmail, .textSenha, .textConfSenha {
+.textNomee, .textIdadee, .textCPFF, .textSexoo, .textEnderecoo,
+.textCidadeEstadoo, .textTelefonee, .textEmaill, .textSenhaa, .textConfSenhaa {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 160%;
@@ -43,64 +43,64 @@
     line-height: 150%;
 }
 
-.textTitulo {
-    margin-top: 1%;
+.textTituloBemVindoo {
+    margin-top: 1.5%;
     margin-left: 3%;
     font-weight: 700;
     line-height: 100%;
 }
 
-.dadosPessoais {
+.dadosPessoaiss {
     margin-top: 2%;
     margin-left: 3%;
     font-weight: 700;
 }
 
-.dadosLogin {
+.dadosLoginn {
     margin-top: 4%;
     margin-left: 3%;
 }
 
-.linha1, .linha2, .linha3, .linha4 {
+.linha1cadastro, .linha2cadastro, .linha3cadastro, .linha4cadastro {
     display: grid;
     grid-row-gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
 }
 
-.bloco1, .bloco2, .bloco3, .bloco4,
-.bloco5, .bloco6, .bloco7 {
+.bloco1cadastro, .bloco2cadastro, .bloco3cadastro, .bloco4cadastro,
+.bloco5cadastro, .bloco6cadastro, .bloco7cadastro {
     display: flex;
     flex-direction: column;
 }
 
-.bloco1, .bloco3, .bloco5, .bloco6 {
+.bloco1cadastro, .bloco3cadastro, .bloco5cadastro, .bloco6cadastro {
     margin-left: 3%;
 }
 
-.textNome, .textCPF, .textEndereco, .textCidadeEstado,
-.textEmail, .textSenha, .textConfSenha {
+.textNomee, .textCPFF, .textEnderecoo, .textCidadeEstadoo,
+.textEmaill, .textSenhaa, .textConfSenhaa {
     margin-top: 2%;
     margin-left: 3%;
 }
 
-.textIdade {
+.textIdadee {
     margin-top: 2%;
     margin-left: 60%;
 }
 
-.textSexo {
+.textSexoo {
     margin-top: 2%;
     margin-left: 10%;
 }
 
-.textTelefone {
+.textTelefonee {
     margin-top: 2%;
     margin-left: 10%;
 }
 
-.inputNome, .inputIdade, .inputCPF, .inputSexo,
-.inputEndereco, .inputCidadeEstado, .inputTelefone,
-.inputEmail, .inputSenha, .inputConfirmarSenha {
+.inputNomee, .inputIdadee, .inputCPFF, .inputSexoo,
+.inputEnderecoo, .inputCidadeEstadoo, .inputTelefonee,
+.inputEmaill, .inputSenhaa, .inputConfirmarSenhaa {
     margin-top: 1%;
     margin-left: 3%;
     height: 45px;
@@ -111,30 +111,30 @@
     font-size: 130%;
 }
 
-.inputNome {
+.inputNomee {
     width: 150%;
 }
 
-.inputIdade {
+.inputIdadee {
     margin-left: 60%;
     width: 32%;
 }
 
-.inputCPF, .inputCidadeEstado {
+.inputCPFF, .inputCidadeEstadoo {
     width: 97%;
 }
 
-.inputSexo, .inputTelefone
+.inputSexoo, .inputTelefonee
  {
     margin-left: 10%;
     width: 82%;
 }
 
-.inputEndereco {
+.inputEnderecoo {
     width: 192%;
 }
 
-.inputEmail, .inputSenha, .inputConfirmarSenha {
+.inputEmaill, .inputSenhaa, .inputConfirmarSenhaa {
     width: 93%;
 }
 
@@ -154,91 +154,92 @@
 
 @media (max-width: 390px) {
 
-    .linha1, .linha2, .linha3, .linha4 {
+    .linha1cadastro, .linha2cadastro, .linha3cadastro, .linha4cadastro {
         display: flex;
         flex-direction: column;
     }
     
-    .dadosLogin, .dadosPessoais, .textTitulo {
+    .dadosLoginn, .dadosPessoaiss, .textTituloBemVindoo {
         font-size: 150%;
         line-height: 150%;
     }
     
-    .textNome, .textIdade, .textCPF, .textSexo, .textEndereco,
-    .textCidadeEstado, .textTelefone, .textEmail, .textSenha, .textConfSenha {
+    .textNomee, .textIdadee, .textCPFF, .textSexoo, .textEnderecoo,
+    .textCidadeEstadoo, .textTelefonee, .textEmaill, .textSenhaa, .textConfSenhaa {
         font-size: 100%;
         line-height: 150%;
     }
 
-    .textTitulo {
+    .textTituloBemVindoo {
+        margin-top: 2.5%;
         margin-left: 6%;
         line-height: 150%;
     }
 
-    .dadosPessoais, .dadosLogin {
+    .dadosPessoaiss, .dadosLoginn {
         margin-left: 6%;
     }
 
-    .dadosPessoais {
+    .dadosPessoaiss {
         margin-top: 6%;
     }
 
-    .dadosLogin {
+    .dadosLoginn {
         margin-top: 15%;
     }
 
-    .textIdade, .textCPF, .textSexo,
-    .textEndereco, .textCidadeEstado, .textTelefone {
+    .textIdadee, .textCPFF, .textSexoo,
+    .textEnderecoo, .textCidadeEstadoo, .textTelefonee {
         margin-left: 7%;
     }
 
-    .textNome, .textCPF, .textEndereco, .textCidadeEstado {
+    .textNomee, .textCPFF, .textEnderecoo, .textCidadeEstadoo {
         margin-left: 2%;
     }
 
-    .textEmail, .textSenha, .textConfSenha {
+    .textEmaill, .textSenhaa, .textConfSenhaa {
         margin-left: 7%;
         margin-top: 4%;
     }
 
-    .bloco1, .bloco3, .bloco5, .bloco6 {
+    .bloco1cadastro, .bloco3cadastro, .bloco5cadastro, .bloco6cadastro {
         margin-left: 5%;
         margin-top: 2%;
     }
 
-    .bloco2, .bloco4, .bloco7 {
+    .bloco2cadastro, .bloco4cadastro, .bloco7cadastro {
         margin-top: -4%;
     }
 
-    .inputNome, .inputIdade, .inputCPF, .inputSexo,
-    .inputEndereco, .inputCidadeEstado, .inputTelefone,
-    .inputEmail, .inputSenha, .inputConfirmarSenha {
+    .inputNomee, .inputIdadee, .inputCPFF, .inputSexoo,
+    .inputEnderecoo, .inputCidadeEstadoo, .inputTelefonee,
+    .inputEmaill, .inputSenhaa, .inputConfirmarSenhaa {
         height: 30px;
         font-size: 85%;
         margin-left: 5%;
     }
 
-    .inputNome, .inputEndereco {
+    .inputNomee, .inputEnderecoo {
         width: 93%;
         margin-left: 0.8%;
     }
     
-    .inputIdade {
+    .inputIdadee {
         width: 32%;
         margin-left: 6%;
     }
     
-    .inputCPF, .inputCidadeEstado {
+    .inputCPFF, .inputCidadeEstadoo {
         width: 80%;
         margin-left: 1%;
     }
     
-    .inputSexo, .inputTelefone {
+    .inputSexoo, .inputTelefonee {
         width: 77%;
         margin-left: 6%;
     }
     
-    .inputEmail, .inputSenha, .inputConfirmarSenha {
+    .inputEmaill, .inputSenhaa, .inputConfirmarSenhaa {
         width: 90%;
         margin-left: 6%;
         margin-top: 1%;
@@ -254,11 +255,20 @@
         padding-left: 9%;
     }
 
-    .inputs {
-        height: 86%;
+    .retanguloInputs {
+        height: 89%;
     }
 
-    .container {
-        height: 1185px;
+    .containerCadastro {
+        height: 1300px;
+    }
+}
+
+@media( min-width: 1400px){
+    .containerCadastro{
+        height: 1540px;
+    }
+    .retanguloInputs{
+        height: 82%;
     }
 }

@@ -18,28 +18,28 @@ function Cadastro() {
   const history = useHistory();
 
     return (
-      <div className="container">
+      <div className="containerCadastro">
         
-        <div className="titulo">
-            <h1 className="textTitulo">Bem vindo - Cadastre-se</h1>
+        <div className="tituloBemVindoo">
+            <h1 className="textTituloBemVindoo">Bem vindo - Cadastre-se</h1>
         </div>
 
-        <form className="inputs">
+        <form className="retanguloInputs">
 
-            <h1 className="dadosPessoais">Dados Pessoais</h1>
+            <h1 className="dadosPessoaiss">Dados Pessoais</h1>
             
-            <div className="linha1">
-                <div className="bloco1">
-                    <p className="textNome">Nome</p>
-                    <input className="inputNome"
+            <div className="linha1cadastro">
+                <div className="bloco1cadastro">
+                    <p className="textNomee">Nome</p>
+                    <input className="inputNomee"
                        type="text" 
                        name='nome'
                        onChange={handleInputChange}
                     />
                 </div>
-                <div className="bloco2">
-                    <p className="textIdade">Idade</p>
-                    <input className="inputIdade"
+                <div className="bloco2cadastro">
+                    <p className="textIdadee">Idade</p>
+                    <input className="inputIdadee"
                        type="number" 
                        name='idade'
                        onChange={handleInputChange}
@@ -47,19 +47,19 @@ function Cadastro() {
                 </div>
             </div>
 
-            <div className="linha2">
-                <div className="bloco3">
-                    <p className="textCPF">CPF</p>
-                    <input className="inputCPF"
+            <div className="linha2cadastro">
+                <div className="bloco3cadastro">
+                    <p className="textCPFF">CPF</p>
+                    <input className="inputCPFF"
                        type="tel" 
                        name='cpf'
                        onChange={handleInputChange}
                     />          
                 </div>
 
-                <div className="bloco4">
-                    <p className="textSexo">Sexo</p>
-                    <input className="inputSexo"
+                <div className="bloco4cadastro">
+                    <p className="textSexoo">Sexo</p>
+                    <input className="inputSexoo"
                        type="text" 
                        name='sexo'
                        onChange={handleInputChange} 
@@ -67,10 +67,10 @@ function Cadastro() {
                 </div>
             </div>
             
-            <div className="linha3">
-                <div className="bloco5">
-                    <p className="textEndereco">Endereço</p>
-                    <input className="inputEndereco"
+            <div className="linha3cadastro">
+                <div className="bloco5cadastro">
+                    <p className="textEnderecoo">Endereço</p>
+                    <input className="inputEnderecoo"
                        type="text" 
                        name='endereco'
                        onChange={handleInputChange}
@@ -78,18 +78,18 @@ function Cadastro() {
                 </div>
             </div>
 
-            <div className="linha4">
-                <div className="bloco6">
-                    <p className="textCidadeEstado">Cidade / Estado</p>
-                    <input className="inputCidadeEstado"
+            <div className="linha4cadastro">
+                <div className="bloco6cadastro">
+                    <p className="textCidadeEstadoo">Cidade / Estado</p>
+                    <input className="inputCidadeEstadoo"
                        type="text" 
                        name='cidadeEstado'
                        onChange={handleInputChange}
                     />                
                 </div>
-                <div className="bloco7">
-                    <p className="textTelefone">Telefone</p>
-                    <input className="inputTelefone"
+                <div className="bloco7cadastro">
+                    <p className="textTelefonee">Telefone</p>
+                    <input className="inputTelefonee"
                        type="tel" 
                        name='telefone'
                        onChange={handleInputChange} 
@@ -97,24 +97,24 @@ function Cadastro() {
                 </div>
             </div>    
 
-            <h1 className="dadosLogin">Dados de Login</h1>
+            <h1 className="dadosLoginn">Dados de Login</h1>
 
-            <p className="textEmail">E-mail</p>
-            <input className="inputEmail"
+            <p className="textEmaill">E-mail</p>
+            <input className="inputEmaill"
                type="email" 
                name='login'
                onChange={handleInputChange} 
             />
 
-            <p className="textSenha">Senha</p>
-            <input className="inputSenha"
+            <p className="textSenhaa">Senha</p>
+            <input className="inputSenhaa"
                type="password" 
                name='senha'
                onChange={handleInputChange} 
             />
 
-            <p className="textConfSenha">Confirme sua senha</p>
-            <input className="inputConfirmarSenha"
+            <p className="textConfSenhaa">Confirme sua senha</p>
+            <input className="inputConfirmarSenhaa"
                type="password" 
                name='confirmarSenha'
                onChange={handleInputChange} 
