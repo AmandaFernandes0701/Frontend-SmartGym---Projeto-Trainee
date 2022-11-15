@@ -40,9 +40,11 @@
     display: flex;
     flex-direction: column;
     width: 61.8%;
-    height: 40%;
+    height: 60%;
     background-color: #832A2A;
     border-radius: 25px;
+    padding-bottom: 1%;
+    padding-top: 0.4%;
 }
 
 .input-nome-perfil, .input-telefone-perfil, .input-cpf-perfil,
@@ -59,13 +61,16 @@
     border-color: #000000;
 }   
 
-.linha1text-perfil, .linha2text-perfil, .linha3text-perfil, .linha4text-perfil, .linha5text-perfil{
+.linha1text-perfil,.linha3text-perfil, .linha4text-perfil, .linha5text-perfil{
     width: 100%;
     display: grid;
     row-gap: 20%;
     grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
 }
-
+.linha2text-perfil{
+    display: flex;
+    margin: 0%;
+}
 .bloco1-perfil, .bloco2-perfil, .bloco6-perfil, .bloco7-perfil{
     width: 40%;
     margin-right: 8%;
@@ -76,14 +81,24 @@
     margin-right: 2%;
 }
 
+.bloco9-perfil{
+    margin-bottom: 0px;
+}
+
 .bloco1-perfil, .bloco2-perfil, .bloco6-perfil, .bloco7-perfil, .bloco8-perfil, .bloco9-perfil,
 .bloco3-perfil, .bloco4-perfil, .bloco5-perfil{
     height: 80%; 
 }
 
-.bloco3-perfil, .bloco4-perfil, .bloco5-perfil{
+.bloco4-perfil, .bloco5-perfil{
     width: 27%;
-    margin-right: 4.2%;
+}
+.bloco4-perfil{
+    margin-right: 24%;
+}
+
+.bloco3-perfil{
+    width: 33%;
 }
 
 
@@ -96,11 +111,15 @@
     width: 90%;
 }
 
-
-.input-cpf-perfil, .input-idade, .input-sexo-perfil{
-    width: 95%;
+.input-cpf-perfil{
+    width: 70%;
 }
-
+.input-idade-perfil{
+    width: 120%;
+}
+.input-sexo-perfil{
+    width: 120%;
+}
 .text-nome-perfil, .text-telefone-perfil, .text-cpf-perfil,
 .text-idade-perfil, .text-sexo-perfil, .text-cidade-perfil, 
 .text-endereco-perfil, .text-email-perfil, .text-senha-perfil,
@@ -170,6 +189,11 @@
     font-size: 90%;
     margin-left: 10%;
 }
+.idade-e-sexo-perfil{
+    display: flex;
+    flex-direction: row;
+    width: 66%;
+}
 
 @media (max-width: 390px){
 
@@ -187,10 +211,6 @@
         padding-right: 15px;
     }
 
-    .linha1text-perfil{
-        margin-top: 30%;
-    }
-
     .marcador-pag{
         margin-top: 30px;
         padding-top: 20px;
@@ -198,7 +218,7 @@
         height: 70px;
     }
 
-    .input-nome-perfil,.input-telefone-perfil,.input-cpf-perfil,.input-idade-perfil,
+    .input-nome-perfil,.input-telefone-perfil,.input-cpf-perfil,
     .input-cidade-perfil,.input-email-perfil,.input-senha-perfil{
         width: 300px;
         height: 39px;
@@ -213,7 +233,7 @@
     .linha1text-perfil{
         align-items: center;
         padding-right: 350px;
-        padding-top: 30px;
+        padding-top: 0px;
     }
     
     .text-nome-perfil, .text-telefone-perfil, .text-cpf-perfil,
@@ -222,14 +242,11 @@
     .Titulo-perfil{
         font-size: 20px;
     }
-    .input-idade-perfil{
-        width: 80px;
-    }
     .input-telefone-perfil{
         width: 300px;
     }
     .input-cpf-perfil{
-        width: 130px;
+        width: 300px;
     }
     .linha2text-perfil{
         margin-left: 25px;
@@ -238,13 +255,14 @@
         margin-top: 40px;
         height: 300px;
         width: 300px;
+        margin-bottom: 20px;
     }
-    .linha1text-perfil, .linha2text-perfil, .linha3text-perfil, .linha4text-perfil, .linha5text-perfil{
+    .linha1text-perfil, .linha2text-perfil,.linha5text-perfil{
         width: 100%;
         margin-top: 10px;
         display: flex;
         flex-direction: column;
-        }
+    }
 
     .linha1-perfil, .linha2-perfil, .linha3-perfil{
         width: 92%;
@@ -265,7 +283,7 @@
     .container-dados1{
         display: flex;
         flex-direction: column;
-        height: 1000px;
+        height: 900px;
         width: 85%;
     }
 
@@ -282,31 +300,42 @@
         height: 200px;
     }
     .bloco6-perfil{
-        height: 3000px;
+        height: 300px;
     }
     .linha1text-perfil{
         height: 130px;
     }
     .input-endereco-perfil{
         height: 39px;
+        width: 300px;
     }
     .text-cpf-perfil{
-        margin-top: 50px;
+        margin-top: 35px;
     }
     .linha3text-perfil{
-        height: 400px;
+        height: 90px;
+        padding-bottom: 0px;
+        width: 100%;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
     }
-    .text-cidade-perfil, .text-endereco-perfil{
+    .text-cidade-perfil{
         padding-top: 30px;
     }
     .bloco7-perfil{
-        padding-top: 35px;
+        padding-top: 0px;
     }
     .linha4text-perfil{
-        padding-bottom: 10px;
+        padding-bottom: 0px;
+        width: 100%;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
     }
     .text-cidade-perfil{
-        padding-top: 250px;
+        padding-top: 200px;
     }
     .text-email-perfil{
         margin-top: 0px;
@@ -314,5 +343,24 @@
     .container-exercicios{
         height: 500px;
         padding-bottom: 0px;
+    }
+    .input-sexo-perfil{
+        width: 145%;
+        height: 39px;
+    }
+    .input-idade-perfil{
+        width: 145%;
+        height: 39px;
+    }
+    .idade-e-sexo-perfil{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .text-endereco-perfil{
+        padding-top: 0%;
+    }
+    .text-nome-perfil{
+        margin-top: 20px;
     }
 }
