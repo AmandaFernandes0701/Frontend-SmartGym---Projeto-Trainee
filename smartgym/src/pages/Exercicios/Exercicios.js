@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Frame from "../../components/Frame";
+import api from "../../services/api";
 import './Exercicios.css'
 
 const frames = [
@@ -59,7 +60,16 @@ const frames = [
     },
 ];
 
-function Exercicios(){
+function Exercicios(){ 
+
+    const [exercicios, setExercicios] = useState([]);
+
+    useEffect(()=>{
+        api.get('/exercise').then((res)=>{
+            console.log(res.data);
+            setExercicios(res.data)
+        });
+    }, []);
     return (
         <div className="bodyExercicios">
 
@@ -68,8 +78,8 @@ function Exercicios(){
             </div>
             
             <div className="frameContainer">
-                {frames.map((frame) => (
-                    <Frame key={frame.id} frame={frame} />
+                {exercicios.map((frame) => (
+                    <Frame key={frame.id_exercicio} frame={frame} />
             ))} 
             </div>
             
