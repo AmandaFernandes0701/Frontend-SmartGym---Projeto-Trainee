@@ -1,12 +1,12 @@
 import { appBarClasses } from "@mui/material";
-import {React, useState, useEffect } from "react";
-import api  from "../../services/api"
+import {React, api, useState, useEffect } from "react";
 import { BsAppIndicator } from "react-icons/bs";
-import {getById} from "../../services/auth"
+import {getById} from "../../../../../BackEnd-SmartGym/src/models/user"
 import Frame from "../../components/Frame";
 import "./Perfil.css";
 
 function Perfil(){
+
 
     const [exerciciosUsuario, setExerciciosUsuario] = useState([])
     const [dadosUsuario, setDadosUsuario] = useState([]); 
