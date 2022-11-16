@@ -1,8 +1,54 @@
-import React from "react";
+import { appBarClasses } from "@mui/material";
+import {React, api, useState, useEffect } from "react";
+import { BsAppIndicator } from "react-icons/bs";
+import {getById} from "../../services/auth"
+import Frame from "../../components/Frame";
 import "./Perfil.css";
 
-
 function Perfil(){
+
+
+    const [exerciciosUsuario, setExerciciosUsuario] = useState([])
+    const [dadosUsuario, setDadosUsuario] = useState([]); 
+    const user_id = getById();
+    
+   
+    async function getExerciciosUsuario(){
+        try {
+            const response = await api.get(`/exerciciouser/${user_id}`);
+            setExerciciosUsuario(response.data);
+        }
+        
+        catch(error){
+            console.warn(error);
+            alert(error.mesage);
+        }
+
+    }
+
+    async function getDadosUsuario() {
+        try {
+            const response = await api.get(`/users/${user_id}`);
+            console.log(response);
+            setDadosUsuario(response.data);
+        } catch (error) {
+            console.warn(error);
+            alert(error.message);
+        }
+    }
+    
+    function handleChange(e){
+        console.log(e);
+        const {nome, value} = e.target;
+        return setDadosUsuario({...dadosUsuario, [nome]:value})
+    }
+
+    useEffect( ()=>{
+        getExerciciosUsuario();
+        getDadosUsuario();
+    },[])
+
+
     return (
         <div className="container-do-perfil-generico">
             <div className="marcador-pag" >
@@ -25,6 +71,7 @@ function Perfil(){
                         <input className="input-nome-perfil"
                         type="text"
                         name='nome'
+                        onChange={handleChange}
                     />
                     </div>
 
@@ -33,6 +80,7 @@ function Perfil(){
                         <input className="input-telefone-perfil"
                         type="text"
                         name='telefone'
+                        onChange={handleChange}
                     />
                     </div>
 
@@ -46,6 +94,7 @@ function Perfil(){
                         <input className="input-cpf-perfil"
                         type="text"
                         name='cpf'
+                        onChange={handleChange}
                         />
                     </div>
                     
@@ -53,7 +102,8 @@ function Perfil(){
                         <p className="text-idade-perfil">Idade</p>
                         <input className="input-idade-perfil"
                         type="text"
-                        name='idade' 
+                        name='idade'
+                        onChange={handleChange}
                         />
                     </div>
 
@@ -62,6 +112,7 @@ function Perfil(){
                         <input className="input-sexo-perfil"
                         type="text"
                         name='sexo'
+                        onChange={handleChange}
                         />
                     </div>
 
@@ -73,6 +124,7 @@ function Perfil(){
                         <input className="input-cidade-perfil"
                         type="text"
                         name='cidade'
+                        onChange={handleChange}
                         />
                     
                     </div>
@@ -80,7 +132,8 @@ function Perfil(){
                         <p className="text-endereco-perfil">Endereço</p>
                         <input className="input-endereco-perfil"
                         type="text"
-                        name='endereco' 
+                        name='endereco'
+                        onChange={handleChange} 
                         />
                     </div>
 
@@ -92,6 +145,7 @@ function Perfil(){
                     <input className="input-email-perfil"
                     type="text"
                     name='email'
+                    onChange={handleChange}
                     />
                     </div>
                     
@@ -104,6 +158,7 @@ function Perfil(){
                         <input className="input-senha-perfil"
                         type="password"
                         name='senha'
+                        onChange={handleChange}
                         />
                     </div>
                 </div>
@@ -111,25 +166,39 @@ function Perfil(){
             </div>
 
             <div className="container-exercicios">
-            
+
                 <div className="Titulo-perfil">
                     Exercícios em andamento
                 </div>
 
                 <div className="linha1-perfil">
                     <div className="grupo1-perfil">
-                            <div className="Label-da-imagem">
-                            Flexão
+
+                        {exerciciosUsuario.map((exercicio)=> (
+                            <div className="exercicio_perfil">
+                                    <Frame key={exercicio.exercicio_id} exercicio={exercicio} />
                             </div>
+                            ))}
+
+                            {/* <div className="Label-da-imagem">
+                            Flexão
+                            </div> */}
                             {/* <img>
                             
                             </img> */}
 
                     </div>
                     <div className="grupo2-perfil">
-                            <div className="Label-da-imagem">
-                            Leg Press
+
+                        {exerciciosUsuario.map((exercicio)=> (
+                            <div className="exercicio_perfil">
+                                    <Frame key={exerciciosUsuario.exercicio_id} exercicio={exercicio} />
                             </div>
+                            ))}
+                            
+                            {/* <div className="Label-da-imagem">
+                            Leg Press
+                            </div> */}
                             {/* <img>
                             
                             </img> */}
