@@ -30,7 +30,13 @@
 }
 @media( max-width: 900px){
     .bodyExercicios {
-        padding-bottom: 150%;
-        height: 2200px;
+        height: 140%;
+        padding-bottom: 200px;
+    }
+}
+@media( max-width: 622px){
+    .bodyExercicios {
+        height: 140%;
+        padding-bottom: 400px;
     }
 }

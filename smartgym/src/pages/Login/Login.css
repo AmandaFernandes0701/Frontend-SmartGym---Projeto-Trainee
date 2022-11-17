@@ -86,7 +86,7 @@
     opacity: 0.8;
     background-color: rgba(255, 255, 255, 0.2);
 }
-@media (max-width: 390px){
+@media (max-width: 900px){
 
     .base{
         height: 763px;
@@ -98,10 +98,6 @@
     .button-label-generico{
         align-items: center;
         padding-left: 45px;
-    }
-    .input--Email, .input--Senha, .text--Email, .text--Senha{
-        width: 250px;
-        margin-left: 30px;
     }
     .text--Email, .text--Senha{
         margin-bottom: 15px;
