@@ -1,11 +1,6 @@
-import { appBarClasses } from "@mui/material";
-import {React, api, useState, useEffect } from "react";
-import { BsAppIndicator } from "react-icons/bs";
-import {getById} from "../../../../../BackEnd-SmartGym/src/models/user"
-import Frame from "../../components/Frame";
+import React from "react";
 import "./Perfil.css";
 
-function Perfil(){
 
 function Perfil() {
     return (
