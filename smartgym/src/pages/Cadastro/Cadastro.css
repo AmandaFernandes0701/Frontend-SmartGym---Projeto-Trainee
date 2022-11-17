@@ -164,7 +164,12 @@
         height: 82%;
     }
 }
-
+@media (max-width: 1000px) {
+    .botaoCadastro {
+        width: 32%;
+        margin-left: 36%;
+    }
+}
 @media (max-width: 390px) {
 
     .linha1cadastro, .linha2cadastro, .linha3cadastro, .linha4cadastro {
@@ -265,7 +270,6 @@
         height: 3%;
         font-size: 100%;
         align-items: center;
-        padding-left: 9%;
     }
 
     .retanguloInputs {

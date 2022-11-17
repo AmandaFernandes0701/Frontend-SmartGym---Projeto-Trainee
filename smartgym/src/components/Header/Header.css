@@ -128,10 +128,6 @@ a {
         margin: 10px;
     }
 
-    button {
-        display: flex;
-    }
-
     .itens_lista_header
     {
         width: 100%;
@@ -157,10 +153,9 @@ a {
         font-family: 'Poppins', sans-serif;
         font-weight: bold;
     }
-    /* .imagem_logo_footer{
-        height: 15px;
-        width: 35px;
-    } */
+    .imagem_logo_footer{
+        height: 25px;
+    }
     .texto_titulo_Smart_Gym_SMART{
         padding-right: 7px;
     }

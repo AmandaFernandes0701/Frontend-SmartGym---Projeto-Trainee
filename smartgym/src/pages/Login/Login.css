@@ -97,7 +97,7 @@
     }
     .button-label-generico{
         align-items: center;
-        padding-left: 45px;
+        justify-content: center;
     }
     .text--Email, .text--Senha{
         margin-bottom: 15px;
