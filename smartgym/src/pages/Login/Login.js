@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
 import { Button } from "react-bootstrap";
+import api from "../../services/api";
 import "./Login.css"
 
 function Login(){
@@ -9,9 +10,21 @@ function Login(){
   const [password, setPassword] = useState();
   const history = useHistory();
 
-      function login(){
-        alert("Bem vindo!\n" + email);
-        history.push("home");
+      async function login(e){
+        e.preventDefault();
+        try {
+          const response = await api.post('/login', {email,password});
+          alert("Bem vindo", response.data.user.nome);
+          history.push("/home");
+        } catch (error) {
+          if (error.response.status === 403){
+            alert ("Credenciais Inválidas");
+          }
+          else {
+            alert(error.response.data.notification);
+          }
+          console.warn(error);
+        }
       }
     return (
       <div className="base">
