@@ -1,7 +1,7 @@
 .frame {   
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 50%;
     padding: 2%;
     align-items: center;
     justify-content: center;
@@ -15,7 +15,7 @@
  .frameText {
     width: 50%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     padding-left: 5%;
