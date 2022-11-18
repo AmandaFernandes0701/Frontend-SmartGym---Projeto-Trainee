@@ -1,35 +1,32 @@
 import { appBarClasses } from "@mui/material";
-import {React, api, useState, useEffect } from "react";
+import {React, useState, useEffect } from "react";
+import api from "../../services/api";
+import { getID } from "../../services/auth";
 import { BsAppIndicator } from "react-icons/bs";
-import {getById} from "../../../../../BackEnd-SmartGym/src/models/user"
-import Frame from "../../components/Frame";
+import ExerciciosSelecionados from "../../components/ExerciciosSelecionados";
 import "./Perfil.css";
 
 function Perfil(){
 
-
-    const [exerciciosUsuario, setExerciciosUsuario] = useState([])
+    const [exerciciosUsuario, setExerciciosUsuario] = useState([]);
     const [dadosUsuario, setDadosUsuario] = useState([]); 
-    const user_id = getById();
+    const user_id = getID();
     
-   
     async function getExerciciosUsuario(){
         try {
-            const response = await api.get(`/exerciciouser/${user_id}`);
-            setExerciciosUsuario(response.data);
+            const response = await api.get(`/relation/${user_id}`);
+            setExerciciosUsuario(response.data.result);
         }
-        
         catch(error){
             console.warn(error);
             alert(error.mesage);
         }
-
     }
 
     async function getDadosUsuario() {
         try {
             const response = await api.get(`/users/${user_id}`);
-            console.log(response);
+        
             setDadosUsuario(response.data);
         } catch (error) {
             console.warn(error);
@@ -37,11 +34,11 @@ function Perfil(){
         }
     }
     
-    function handleChange(e){
-        console.log(e);
-        const {nome, value} = e.target;
-        return setDadosUsuario({...dadosUsuario, [nome]:value})
-    }
+    // function handleChange(e){
+    //     console.log(e);
+    //     const {nome, value} = e.target;
+    //     return setDadosUsuario({...dadosUsuario, [nome]:value})
+    // }
 
     useEffect( ()=>{
         getExerciciosUsuario();
@@ -68,19 +65,16 @@ function Perfil(){
 
                     <div className="bloco1-perfil">
                         <p className="text-nome-perfil">Nome</p>
-                        <input className="input-nome-perfil"
-                        type="text"
-                        name='nome'
-                        onChange={handleChange}
-                    />
+                        <p className="input-nome-perfil"
+                    
+                    >{dadosUsuario.nome}</p>
+
                     </div>
 
                     <div className="bloco2-perfil">
                         <p className="text-telefone-perfil">Telefone</p>
                         <input className="input-telefone-perfil"
-                        type="text"
-                        name='telefone'
-                        onChange={handleChange}
+                        
                     />
                     </div>
 
@@ -94,7 +88,6 @@ function Perfil(){
                         <input className="input-cpf-perfil"
                         type="text"
                         name='cpf'
-                        onChange={handleChange}
                         />
                     </div>
                     
@@ -103,7 +96,6 @@ function Perfil(){
                         <input className="input-idade-perfil"
                         type="text"
                         name='idade'
-                        onChange={handleChange}
                         />
                     </div>
 
@@ -112,7 +104,6 @@ function Perfil(){
                         <input className="input-sexo-perfil"
                         type="text"
                         name='sexo'
-                        onChange={handleChange}
                         />
                     </div>
 
@@ -124,7 +115,6 @@ function Perfil(){
                         <input className="input-cidade-perfil"
                         type="text"
                         name='cidade'
-                        onChange={handleChange}
                         />
                     
                     </div>
@@ -133,7 +123,6 @@ function Perfil(){
                         <input className="input-endereco-perfil"
                         type="text"
                         name='endereco'
-                        onChange={handleChange} 
                         />
                     </div>
 
@@ -145,7 +134,6 @@ function Perfil(){
                     <input className="input-email-perfil"
                     type="text"
                     name='email'
-                    onChange={handleChange}
                     />
                     </div>
                     
@@ -158,7 +146,6 @@ function Perfil(){
                         <input className="input-senha-perfil"
                         type="password"
                         name='senha'
-                        onChange={handleChange}
                         />
                     </div>
                 </div>
@@ -171,72 +158,14 @@ function Perfil(){
                     Exercícios em andamento
                 </div>
 
-                <div className="linha1-perfil">
-                    <div className="grupo1-perfil">
-
+                <div className="container-dos-selecionados">
+                    
                         {exerciciosUsuario.map((exercicio)=> (
                             <div className="exercicio_perfil">
-                                    <Frame key={exercicio.exercicio_id} exercicio={exercicio} />
+                                    <ExerciciosSelecionados key={exercicio.exercicio_id} exercicio={exercicio} />
                             </div>
                             ))}
 
-                            {/* <div className="Label-da-imagem">
-                            Flexão
-                            </div> */}
-                            {/* <img>
-                            
-                            </img> */}
-
-                    </div>
-                    <div className="grupo2-perfil">
-
-                        {exerciciosUsuario.map((exercicio)=> (
-                            <div className="exercicio_perfil">
-                                    <Frame key={exerciciosUsuario.exercicio_id} exercicio={exercicio} />
-                            </div>
-                            ))}
-                            
-                            {/* <div className="Label-da-imagem">
-                            Leg Press
-                            </div> */}
-                            {/* <img>
-                            
-                            </img> */}
-                    </div>
-                </div>
-                <div className="linha2-perfil">
-                    <div className="grupo3-perfil">
-                    <div className="Label-da-imagem">
-                            Caixa extensora
-                            </div>
-                            {/* <img>
-                            
-                            </img> */}
-                    </div>  
-                    <div className="grupo4-perfil">
-                    <div className="Label-da-imagem">
-                            Agachamento livre
-                            </div>
-                            {/* <img>
-                            
-                            </img> */}
-                    </div>
-                </div>
-                    <div className="linha3-perfil">
-                        <div className="grupo5-perfil">
-                        <div className="Label-da-imagem">
-                        Extensão tríceps
-
-                                </div>
-                                {/* <img>
-                                </img> */}
-                        </div>
-                        <div className="grupo6-perfil">
-                        <div className="Label-da-imagem">
-                                Quadríceps e coluna
-                                </div>
-
-                        </div>
                 </div>
 
         </div>

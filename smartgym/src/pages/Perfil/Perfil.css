@@ -171,6 +171,15 @@
     margin-left: 10%;
 }
 
+.container-dos-selecionados{
+    align-self: center;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
 @media (max-width: 390px){
 
     .container-do-perfil-generico{

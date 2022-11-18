@@ -1,13 +1,22 @@
 import React, { useState } from "react";
 import api from "../../services/api";
 import "./Frame.css";
-
+import { getID } from "../../services/auth";
 function Frame({frame}) {
 
     function adicionando(e){
+
+
         e.preventDefault();
-        const user_id = sessionStorage.getItem('user_id');
+
+        try{
+            const user_id = getID();
         api.post('/relation', {user_id, id_exercicio: frame.id_exercicio});
+        alert("Exercício adicionado com sucesso");
+        }
+        catch (error){
+            console.log(error.message);
+        }
     }
 
     return ( 
@@ -17,6 +26,7 @@ function Frame({frame}) {
                 <div className="frameTitle">{frame.titulo}</div>
                 <div className="frameDescription">{frame.descricao}</div>
                 <button className="frameButton"onClick={adicionando}>Adicionar</button>
+            
             </div>
         </div>
     );

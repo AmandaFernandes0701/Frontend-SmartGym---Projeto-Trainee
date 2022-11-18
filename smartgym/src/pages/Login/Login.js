@@ -1,22 +1,33 @@
 import React from "react";
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
-import { Button } from "react-bootstrap";
+// import { Button } from "react-bootstrap";
 import api from "../../services/api";
+import {login} from "../../services/auth";
+
 import "./Login.css"
 
 function Login(){
+
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
   const history = useHistory();
 
-      async function login(e){
+  
+      async function handleLogin(e){
         e.preventDefault();
         try {
-          const response = await api.post('/login', {email,password});
+
+          const response = await api.post('/login', {email,senha:password});
+          console.log(email, password);
+          
           alert("Bem vindo", response.data.user.nome);
+          login(response.data);
+          console.log(response.data);
           history.push("/home");
+
         } catch (error) {
+          
           if (error.response.status === 403){
             alert ("Credenciais Inválidas");
           }
@@ -26,6 +37,7 @@ function Login(){
           console.warn(error);
         }
       }
+
     return (
       <div className="base">
         <div className="container-login">
@@ -37,7 +49,9 @@ function Login(){
               </div>
 
               <div className="linha1--">
+                <form>
                   <input className="input--Email" type="Email" onChange={(e)=>setEmail(e.target.value)}/>
+                </form>
               </div>
               
               <div className="linha2text">
@@ -45,11 +59,13 @@ function Login(){
               </div>
 
               <div className="linha2--">
-                <input className="input--Senha" type="password" onChange={(e)=>setPassword(e.target.value)} />
+                <form>
+                  <input className="input--Senha" type="password" onChange={(e)=>setPassword(e.target.value)} />
+                </form>
               </div>
 
 
-            <button class="button-generico" type="submit" onClick={(login)}>
+            <button class="button-generico" type="submit" onClick={(handleLogin)}>
               <div class="button-label-generico">
                 ENTRAR
               </div>
