@@ -7,7 +7,7 @@ import ExerciciosSelecionados from "../../components/ExerciciosSelecionados";
 import "./Perfil.css";
 
 function Perfil(){ 
-    
+
     const [exerciciosUsuario, setExerciciosUsuario] = useState([]);
     const [dadosUsuario, setDadosUsuario] = useState([]); 
     const user_id = getID();
@@ -73,9 +73,9 @@ function Perfil(){
 
                     <div className="bloco2-perfil">
                         <p className="text-telefone-perfil">Telefone</p>
-                        <input className="input-telefone-perfil"
+                        <p className="input-telefone-perfil"
                         
-                    />
+                    >{dadosUsuario.telefone}</p>
                     </div>
 
 
@@ -85,44 +85,38 @@ function Perfil(){
                 <div className="linha2text-perfil">
                     <div className="bloco3-perfil">
                         <p className="text-cpf-perfil">CPF</p>
-                        <input className="input-cpf-perfil"
-                        type="text"
-                        name='cpf'
-                        />
+                        <p className="input-cpf-perfil"
+                        
+                        >{dadosUsuario.cpf}</p>
                     </div>
                     
                     <div className="bloco4-perfil">
                         <p className="text-idade-perfil">Idade</p>
-                        <input className="input-idade-perfil"
-                        type="text"
-                        name='idade'
-                        />
+                        <p className="input-idade-perfil"
+                        
+                        >{dadosUsuario.idade}</p>
                     </div>
 
                     <div className="bloco5-perfil">
                         <p className="text-sexo-perfil">Sexo</p>
-                        <input className="input-sexo-perfil"
-                        type="text"
-                        name='sexo'
-                        />
+                        <p className="input-sexo-perfil"
+                        >{dadosUsuario.sexo}</p>
                     </div>
                 </div>
 
                 <div className="linha3text-perfil">
                     <div className="bloco6-perfil">
                         <p className="text-cidade-perfil">Cidade/Estado</p>
-                        <input className="input-cidade-perfil"
-                        type="text"
-                        name='cidade'
-                        />
+                        <p className="input-cidade-perfil"
+                       
+                        >{dadosUsuario.cidadeestado}</p>
 
                     </div>
                     <div className="bloco7-perfil">
                         <p className="text-endereco-perfil">Endereço</p>
-                        <input className="input-endereco-perfil"
-                        type="text"
-                        name='endereco'
-                        />
+                        <p className="input-endereco-perfil"
+                        
+                        >{dadosUsuario.endereco}</p>
                     </div>
 
                 </div>
@@ -130,10 +124,9 @@ function Perfil(){
                 <div className="linha4text-perfil">
                     <div className="bloco8-perfil">
                     <p className="text-email-perfil">E-mail</p>
-                    <input className="input-email-perfil"
-                    type="text"
-                    name='email'
-                    />
+                    <p className="input-email-perfil"
+                    
+                    >{dadosUsuario.email}</p>
                     </div>
 
                 </div>
@@ -142,10 +135,9 @@ function Perfil(){
                 <div className="linha5text-perfil">
                     <div className="bloco9-perfil">
                         <p className="text-senha-perfil">Senha</p>
-                        <input className="input-senha-perfil"
-                        type="password"
-                        name='senha'
-                        />
+                        <p className="input-senha-perfil"
+        
+                        >{dadosUsuario.senha}</p>
                     </div>
                 </div>
 
@@ -172,4 +164,5 @@ function Perfil(){
         </div>
     );
 }
+
 export default Perfil;
