@@ -16,6 +16,7 @@ const PrivateRoute = ({ component: Component, ...rest }) => (
     isAuthenticated() ? (
         <Component {...props} />
     ) : (
+        alert("Você precisa estar conectado!"),
         <Redirect
             to={{pathname: "/cadastro", state: {from: props.location}}}
             />
