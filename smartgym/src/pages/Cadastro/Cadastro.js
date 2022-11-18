@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import {useHistory} from "react-router-dom";
-import "./Cadastro.css"
+import api from "../../services/api";
+import "./Cadastro.css";
 
 function Cadastro() { 
     
@@ -8,11 +9,32 @@ function Cadastro() {
 
   function handleInputChange(e) {
     const key = e.target.name;
-
     const newPessoa = {...pessoa};
     newPessoa[key] = e.target.value;
 
     setPessoa(newPessoa);
+  }
+
+  async function botaoProsseguir(e) {
+    e.preventDefault();
+    try {
+        console.log(pessoa);
+        const {confirmarSenha, ...user} = pessoa;
+        if(confirmarSenha !== user.senha){
+            console.log(confirmarSenha);
+            console.log(user.senha);
+            alert("Confirmção de senha errada");
+            return;
+        }
+        const response = await api.post('/users', user);
+        setPessoa(response.data);
+        console.log(response);
+        alert("Usuário cadastrado com sucesso");
+        history.push("login");
+    } catch (error) {
+        console.warn(error);
+        alert(error.response?.status);
+    }
   }
 
   const history = useHistory();
@@ -83,7 +105,7 @@ function Cadastro() {
                     <p className="textCidadeEstadoo">Cidade / Estado</p>
                     <input className="inputCidadeEstadoo"
                        type="text" 
-                       name='cidadeEstado'
+                       name='cidadeestado'
                        onChange={handleInputChange}
                     />                
                 </div>
@@ -102,7 +124,7 @@ function Cadastro() {
             <p className="textEmaill">E-mail</p>
             <input className="inputEmaill"
                type="email" 
-               name='login'
+               name='email'
                onChange={handleInputChange} 
             />
 
@@ -120,7 +142,7 @@ function Cadastro() {
                onChange={handleInputChange} 
             />
 
-            <button className="botaoCadastro" onClick={ () => {history.push("home");}}>
+            <button className="botaoCadastro" variant="primary" type="submit" onClick={botaoProsseguir}>
                 Prosseguir
             </button>
 
