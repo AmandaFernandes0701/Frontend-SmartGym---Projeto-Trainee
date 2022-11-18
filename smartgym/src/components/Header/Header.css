@@ -99,7 +99,8 @@ a {
     margin: 0px;
 }
 
-@media (max-width: 1000px) {
+
+@media (max-width: 1080px) {
 
     .caixa_logo_titulo_header h3{
         font-size: 20px;
@@ -125,10 +126,6 @@ a {
 
     h1 {
         margin: 10px;
-    }
-
-    button {
-        display: flex;
     }
 
     .itens_lista_header
@@ -157,8 +154,7 @@ a {
         font-weight: bold;
     }
     .imagem_logo_footer{
-        height: 15px;
-        width: 35px;
+        height: 25px;
     }
     .texto_titulo_Smart_Gym_SMART{
         padding-right: 7px;

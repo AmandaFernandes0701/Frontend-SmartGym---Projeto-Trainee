@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import api from "../../services/api";
+import React from "react";
 import "./Frame.css";
 import { getID } from "../../services/auth";
 function Frame({frame}) {
@@ -21,7 +20,7 @@ function Frame({frame}) {
 
     return ( 
         <div className="frame">
-            <div className="frameImage"><img style={{ width: "100%", height: "100%" }} src={frame.imagem} className="cerrote" alt=""/></div>
+            <div className="frameImage">{frame.image}</div>
             <div className="frameText">
                 <div className="frameTitle">{frame.titulo}</div>
                 <div className="frameDescription">{frame.descricao}</div>
@@ -33,4 +32,3 @@ function Frame({frame}) {
 }
 
 export default Frame;
-

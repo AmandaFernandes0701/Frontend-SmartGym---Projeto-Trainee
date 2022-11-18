@@ -6,7 +6,6 @@ import { BsAppIndicator } from "react-icons/bs";
 import ExerciciosSelecionados from "../../components/ExerciciosSelecionados";
 import "./Perfil.css";
 
-function Perfil(){
 
     const [exerciciosUsuario, setExerciciosUsuario] = useState([]);
     const [dadosUsuario, setDadosUsuario] = useState([]); 
@@ -56,9 +55,9 @@ function Perfil(){
                 <div className="perfil-do-user">
                     PERFIL DO USUÁRIO
                 </div>
-                
+
             </div>
-            
+
             <div className="container-dados1">
 
                 <div className="linha1text-perfil">
@@ -78,7 +77,7 @@ function Perfil(){
                     />
                     </div>
 
-        
+
                 </div>
 
 
@@ -106,7 +105,6 @@ function Perfil(){
                         name='sexo'
                         />
                     </div>
-
                 </div>
 
                 <div className="linha3text-perfil">
@@ -116,7 +114,7 @@ function Perfil(){
                         type="text"
                         name='cidade'
                         />
-                    
+
                     </div>
                     <div className="bloco7-perfil">
                         <p className="text-endereco-perfil">Endereço</p>
@@ -136,7 +134,7 @@ function Perfil(){
                     name='email'
                     />
                     </div>
-                    
+
                 </div>
 
 
@@ -170,7 +168,7 @@ function Perfil(){
 
         </div>
 
-    </div>
+        </div>
     );
 }
 export default Perfil;
