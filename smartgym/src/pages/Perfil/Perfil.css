@@ -14,7 +14,7 @@
     width: 85%;
     background-color: #D9D9D9;
     font-size: 80%;
-    height: 7%;
+    height: 60px;
     align-items: center;
     margin-bottom: 10%;
 }
@@ -36,7 +36,6 @@
 }
 
 .container-dados1{
-    margin-top: -5%;
     display: flex;
     flex-direction: column;
     width: 61.8%;
@@ -44,7 +43,7 @@
     background-color: #832A2A;
     border-radius: 25px;
     padding-bottom: 3.5%;
-    padding-top: 0.4%;
+    padding-top: 2%;
 }
 
 .input-nome-perfil, .input-telefone-perfil, .input-cpf-perfil,
@@ -55,7 +54,7 @@
     padding-left: 1%;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    height: 60%;
+    height: 35px;
     stroke: #000000;
     border-style: solid;
     border-color: #000000;
@@ -69,7 +68,9 @@
 }
 .linha2text-perfil{
     display: flex;
-    margin: 0%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
 }
 .bloco1-perfil, .bloco2-perfil, .bloco6-perfil, .bloco7-perfil{
     width: 40%;
@@ -91,10 +92,7 @@
 }
 
 .bloco4-perfil, .bloco5-perfil{
-    width: 27%;
-}
-.bloco4-perfil{
-    margin-right: 24%;
+    width: 33%;
 }
 
 .bloco3-perfil{
@@ -112,14 +110,15 @@
 }
 
 .input-cpf-perfil{
-    width: 70%;
+    width: 80%;
+
 }
 .input-idade-perfil{
-    width: 120%;
+    width: 80%;
 }
-/* .input-sexo-perfil{
-    width: 120%;
-} */
+.input-sexo-perfil{
+    width: 80%;
+}
 .text-nome-perfil, .text-telefone-perfil, .text-cpf-perfil,
 .text-idade-perfil, .text-sexo-perfil, .text-cidade-perfil, 
 .text-endereco-perfil, .text-email-perfil, .text-senha-perfil,
@@ -127,8 +126,9 @@
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     color: #000000;
-    margin-top: 1%;
+    padding-top: 1%;
     font-size: 20px;
+    margin-bottom: 3%;
 }
 
 
@@ -137,7 +137,7 @@
     display: flex;
     height: 18%;
     margin-left: 4%;
-    margin-right: 8%;
+    margin-right: 2%;
     margin-bottom: 1%;
 }
 
@@ -200,9 +200,16 @@
     align-self: center;
     height: 90%;
     width: 90%;
-    display: flex;
-    flex-direction: column;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 1100px){
+
+    .container-dos-selecionados{
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 390px){
@@ -210,6 +217,10 @@
     .container-do-perfil-generico{
         height: 1600px;
         padding-bottom: 50px;
+    }
+
+    .container-exercicios{
+        width: 85%;
     }
 
     .marcador-pagina-anterior{

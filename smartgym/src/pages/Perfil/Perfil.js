@@ -132,14 +132,14 @@ function Perfil(){
                 </div>
 
 
-                <div className="linha5text-perfil">
+                {/* <div className="linha5text-perfil">
                     <div className="bloco9-perfil">
                         <p className="text-senha-perfil">Senha</p>
                         <p className="input-senha-perfil"
         
                         >{dadosUsuario.senha}</p>
                     </div>
-                </div>
+                </div> */}
 
             </div>
 
