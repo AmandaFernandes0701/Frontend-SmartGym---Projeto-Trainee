@@ -22,7 +22,7 @@ function Frame({ frame }) {
 
   return (
     <div className="frame">
-      <div className="frameImage"><img style={{ width: "100%", height: "100%" }} src={frame.imagem} className="cerrote" alt=""/></div>
+      <div className="frameImage"><img style={{ width: "100%", height: "220px" }} src={frame.imagem} className="cerrote" alt=""/></div>
         {/* CORRIGIR TAMANHO DO FRAME */}
       <div className="frameText">
         <div className="frameTitle">{frame.titulo}</div>
