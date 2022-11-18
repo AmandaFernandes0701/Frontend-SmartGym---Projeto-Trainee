@@ -28,6 +28,11 @@
     opacity: 0.7;
     background-color: #5D1111;
 }
+@media( max-width: 1000px){
+    .bodyExercicios {
+        padding-bottom: 35%;
+    }
+}
 @media( max-width: 900px){
     .bodyExercicios {
         height: 140%;
