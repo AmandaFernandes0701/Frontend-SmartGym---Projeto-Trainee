@@ -98,7 +98,7 @@
     height: 17px;
 }
 
-@media( max-width: 900px){
+@media( max-width: 1080px){
     .body_footer{
         display: flex;
         flex-direction: column;

@@ -99,7 +99,11 @@ a {
     margin: 0px;
 }
 
-
+@media(max-width: 1080px) {
+    .imagem_logo_footer{
+        height: 22px;
+    }
+}
 @media (max-width: 1080px) {
 
     .caixa_logo_titulo_header h3{
@@ -151,9 +155,6 @@ a {
         font-size: 20px;
         font-family: 'Poppins', sans-serif;
         font-weight: bold;
-    }
-    .imagem_logo_footer{
-        height: 25px;
     }
     .texto_titulo_Smart_Gym_SMART{
         padding-right: 7px;
