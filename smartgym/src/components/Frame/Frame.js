@@ -1,6 +1,8 @@
 import React from "react";
 import "./Frame.css";
 import { getID } from "../../services/auth";
+import api from "../../services/api";
+
 function Frame({frame}) {
 
     function adicionando(e){

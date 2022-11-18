@@ -6,7 +6,8 @@ import { BsAppIndicator } from "react-icons/bs";
 import ExerciciosSelecionados from "../../components/ExerciciosSelecionados";
 import "./Perfil.css";
 
-
+function Perfil(){ 
+    
     const [exerciciosUsuario, setExerciciosUsuario] = useState([]);
     const [dadosUsuario, setDadosUsuario] = useState([]); 
     const user_id = getID();
