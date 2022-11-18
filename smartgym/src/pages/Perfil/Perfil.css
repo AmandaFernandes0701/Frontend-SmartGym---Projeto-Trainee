@@ -117,9 +117,9 @@
 .input-idade-perfil{
     width: 120%;
 }
-.input-sexo-perfil{
+/* .input-sexo-perfil{
     width: 120%;
-}
+} */
 .text-nome-perfil, .text-telefone-perfil, .text-cpf-perfil,
 .text-idade-perfil, .text-sexo-perfil, .text-cidade-perfil, 
 .text-endereco-perfil, .text-email-perfil, .text-senha-perfil,
@@ -136,7 +136,6 @@
 .linha4text-perfil, .linha5text-perfil{
     display: flex;
     height: 18%;
-    width: 100%;
     margin-left: 4%;
     margin-right: 8%;
     margin-bottom: 1%;
