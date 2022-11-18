@@ -1,4 +1,4 @@
-.frame {   
+.frame-perfil {   
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -8,12 +8,12 @@
     justify-content: center;
  }
  
- .frameImage {
+ .frameImage-perfil {
     width:50%;
     height: 80%;
  }
  
- .frameText {
+ .frameText-perfil {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -24,13 +24,17 @@
     font-weight: 700;
  }
  
- .frameTitle {
+ .frameTitle-perfil {
     font-family: 'Poppins', sans-serif;
     font-size: 100%;
     color: #191919;
     text-align: center;
     align-content: center;
     width: 100%;
+    font-weight: 700;
+ }
+ .imagem-exercicio-perfil{
+   height: 50px;
  }
 
  
