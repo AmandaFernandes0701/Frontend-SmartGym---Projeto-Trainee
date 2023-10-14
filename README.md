@@ -34,17 +34,20 @@ O SmartGym foi desenvolvido utilizando as seguintes tecnologias e dependências:
 Para executar este projeto localmente, siga os seguintes passos:
 
 1. Clone o repositório para a sua máquina local:
-```bash
-git clone https://github.com/seu-nome-de-usuário/SmartGym.git
+   ```bash
+     git clone https://github.com/AmandaFernandes0701/Frontend-SmartGym---Projeto-Trainee.git
+   
+2. Navegue até o diretório do projeto:
+   ```bash
+    cd SmartGym
 
-3. Navegue até o diretório do projeto:
-```bash cd SmartGym
+3. Instale as dependências do projeto:
+   ```bash
+    npm install
 
-5. Instale as dependências do projeto:
-```bash npm install
-
-6. Para iniciar o servidor de desenvolvimento e visualizar a aplicação localmente, execute:
-```bash npm start
+4. Para iniciar o servidor de desenvolvimento e visualizar a aplicação localmente, execute:
+   ```bash
+    npm start
 
 ## Contribuição
 Contribuições são bem-vindas! Se você deseja contribuir para este projeto, siga estas diretrizes:
