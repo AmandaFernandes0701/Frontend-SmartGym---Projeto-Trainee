@@ -2,58 +2,59 @@
 
 # SmartGym
 
-O SmartGym é uma aplicação web que permite aos usuários fazer login, se registrar, atualizar informações pessoais e gerenciar suas rotinas de exercícios. A página inicial da aplicação é totalmente responsiva e estilizada com CSS. Este projeto foi desenvolvido como parte de um programa de trainee.
+SmartGym is a web application that allows users to log in, register, update personal information, and manage their exercise routines. The application's home page is fully responsive and styled with CSS. This project was developed as part of a trainee program.
 
-## Sumário
+## Summary
 
-- [Recursos](#recursos)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Instalação](#instalação)
-- [Contribuição](#contribuição)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Contribution](#contribution)
 
-## Recursos
+## Features
 
-- Autenticação de Usuário: Os usuários podem fazer login e se registrar para acessar os recursos da aplicação.
-- Gerenciamento de Perfil: Os usuários podem atualizar suas informações pessoais.
-- Lista de Exercícios: Os usuários podem adicionar exercícios à sua lista de exercícios.
-- Design Responsivo: A página inicial da aplicação é totalmente responsiva e estilizada com CSS.
+- User Authentication: Users can log in and register to access the application's features.
+- Profile Management: Users can update their personal information.
+- Exercise List: Users can add exercises to their exercise list.
+- Responsive Design: The application's home page is fully responsive and styled with CSS.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-O SmartGym foi desenvolvido utilizando as seguintes tecnologias e dependências:
+SmartGym was developed using the following technologies and dependencies:
 
-- [React](https://pt-br.reactjs.org/) - Uma biblioteca JavaScript para criação de interfaces de usuário.
-- [React Router](https://reactrouter.com/) - Para gerenciar as rotas da aplicação.
-- [React Bootstrap](https://react-bootstrap.github.io/) - Para componentes de interface.
-- [Axios](https://axios-http.com/) - Para fazer requisições HTTP.
-- [Bootstrap](https://getbootstrap.com/) - Framework CSS.
-- E outros (consulte `package.json` para a lista completa de dependências).
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
+- [React Router](https://reactrouter.com/) - To manage application routes.
+- [React Bootstrap](https://react-bootstrap.github.io/) - For interface components.
+- [Axios](https://axios-http.com/) - To make HTTP requests.
+- [Bootstrap](https://getbootstrap.com/) - CSS framework.
+- And others (see `package.json` for the complete list of dependencies).
 
-## Instalação
+## Installation
 
-Para executar este projeto localmente, siga os seguintes passos:
+To run this project locally, follow these steps:
 
-1. Clone o repositório para a sua máquina local:
+1. Clone the repository to your local machine:
    ```bash
      https://github.com/AmandaFernandes0701/Frontend-SmartGym---Projeto-Trainee.git
    
-2. Navegue até o diretório do projeto:
+2. Navigate to the project directory:
    ```bash
     cd SmartGym
 
-3. Instale as dependências do projeto:
+3. Install the project dependencies:
    ```bash
     npm install
 
-4. Para iniciar o servidor de desenvolvimento e visualizar a aplicação localmente, execute:
+4. To start the development server and view the application locally, run:
    ```bash
     npm start
 
-## Contribuição
-Contribuições são bem-vindas! Se você deseja contribuir para este projeto, siga estas diretrizes:
+## Contribution
 
-Faça um fork do repositório.
-Crie um novo branch para a sua funcionalidade: git checkout -b nome-da-funcionalidade.
-Faça as alterações e as comunique: git commit -m 'Adicione nova funcionalidade'.
-Faça o push do branch: git push origin nome-da-funcionalidade.
-Abra um pull request.
+Contributions are welcome! If you wish to contribute to this project, follow these guidelines:
+
+1. Fork the repository.
+2. Create a new branch for your feature: git checkout -b feature-name.
+3. Make the changes and commit them: git commit -m 'Add new feature'.
+4. Push the branch: git push origin feature-name.
+5. Open a pull request.
