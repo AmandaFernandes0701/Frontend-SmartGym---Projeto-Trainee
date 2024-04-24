@@ -1,7 +1,5 @@
 # FrontEnd-SmartGym
 
-# SmartGym
-
 SmartGym is a web application that allows users to log in, register, update personal information, and manage their exercise routines. The application's home page is fully responsive and styled with CSS. This project was developed as part of a trainee program.
 
 ## Summary
