@@ -2,7 +2,7 @@
 
 SmartGym is a web application that allows users to log in, register, update personal information, and manage their exercise routines. The application's home page is fully responsive and styled with CSS. This project was developed as part of a trainee program.
 
-![image](https://github.com/AmandaFernandes0701/Frontend-SmartGym---Projeto-Trainee/assets/116132492/cb52896d-44eb-4eb7-a807-9d8b875422af)
+![image](https://github.com/AmandaFernandes0701/Frontend-SmartGym---Projeto-Trainee/assets/116132492/4100b3a5-461e-4269-b907-7a8ef5bf1858)
 
 ## Summary
 
